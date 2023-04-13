@@ -138,7 +138,7 @@
         logo.classList.add('logo');
         const logoImg = document.createElement('img');
          // logoImg.innerHTML = 'Preguntas frecuentes'; 
-         logoImg.setAttribute('src', 'chat/Logo/LOGO REFORESTAMOS FONDO TRANSPARENTE.png');
+         logoImg.setAttribute('src', 'https://main--spontaneous-marigold-97389d.netlify.app/chat/Logo/LOGO%20REFORESTAMOS%20FONDO%20TRANSPARENTE.png');
          logoImg.classList.add('p-1','img-fluid');
          logoImg.setAttribute('alt', 'Logo Reforestamos México');
         logo.appendChild(logoImg);
