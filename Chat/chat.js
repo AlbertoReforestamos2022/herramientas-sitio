@@ -136,11 +136,11 @@
 
         const logo = document.createElement('div');
         logo.classList.add('logo');
-        const logoImg = document.createElement('h6');
-        logoImg.innerHTML = 'Preguntas frecuentes'; 
-        // logoImg.setAttribute('src', '../img/Logo-Iconos/LOGO REFORESTAMOS FONDO TRANSPARENTE.png');
-        logoImg.classList.add('p-1','text-primary');
-        // logoImg.setAttribute('alt', 'Logo Reforestamos México');
+        const logoImg = document.createElement('img');
+         // logoImg.innerHTML = 'Preguntas frecuentes'; 
+         logoImg.setAttribute('src', 'chat/Logo/LOGO REFORESTAMOS FONDO TRANSPARENTE.png');
+         logoImg.classList.add('p-1','img-fluid');
+         logoImg.setAttribute('alt', 'Logo Reforestamos México');
         logo.appendChild(logoImg);
         
         // const title = document.createElement('div');
