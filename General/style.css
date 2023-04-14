@@ -128,7 +128,7 @@
   
   @media (min-width: 300px) and (max-width: 700px) {
     .margen-principal {
-        margin-top: 7.4rem;
+        margin-top: 120px!important;
       }
 
   }
