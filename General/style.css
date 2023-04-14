@@ -126,10 +126,17 @@
       height: 20px;
   }
   
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 700px) {
     .margen-principal {
-      margin-top: 6.4375rem;
-    }
+        margin-top: 6.4rem;
+      }
+
+  }
+
+  @media (min-width: 700px) and (max-width:1300) {
+    .margen-principal {
+        margin-top: 7.4rem;
+      }
   }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
@@ -159,7 +166,11 @@
     left: 318px;
     bottom: 10px;
   }
-  
+
+.nav-link {
+    padding: 8px!important;
+    -webkit-padding: 4px!important;
+}
   
   /* Carousel */
   .espacio-carousel {
@@ -206,7 +217,7 @@
     height: 140px;
   }
 
-  
+
 
   @media (max-width: 1000px) {
     .linea-accion-img {
