@@ -213,13 +213,11 @@
   }
   
   .linea-accion-img {
-    width: 140px;
-    height: 140px;
-  }
+    width: 120px;
+    height: 120px;
 
-.linea-accion-img img {
     border-radius: 50%;
-}
+  }
 
 
   @media (max-width: 1000px) {
