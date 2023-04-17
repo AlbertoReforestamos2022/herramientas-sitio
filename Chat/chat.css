@@ -155,7 +155,7 @@
 
 @media screen and (max-width: 400px) {
   .chat-body {
-    height: 400px!important;
+    height: 300px!important;
     width: 100%;
   }
 
@@ -172,13 +172,8 @@
 }
 
 @media (min-width: 400px) and (max-width: 900px) {
-  .bot {
-    height: 100%!important;
-  }
-
   .chat-body {
-   
-   width: 350px;
+   width: 400px;
   } 
 }
 

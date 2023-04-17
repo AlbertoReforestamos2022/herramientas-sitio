@@ -270,7 +270,7 @@
 
                         <div class="card border-0 text-primary">
                             <h5 class="p-2">Detectives Ambientales </h5>
-                            <p class="text-primary">¡Súmate a la comunidad de Detectives Ambientales en TikTok! Registra tus especies de árboles, aves e insector en Naturalista y comparte tus hallazgos sumándote al hashtag #DetectivesAmbientales.</p>
+                            <p class="text-primary">¡Súmate a la comunidad de Detectives Ambientales en <a href="https://www.tiktok.com/@reforestamosmx?lang=es" target="_blank">TikTok</a>!   Registra tus especies de árboles, aves e insector en Naturalista y comparte tus hallazgos sumándote al hashtag #DetectivesAmbientales.</p>
                         </div>
                     </div>
                 </div>
