@@ -925,6 +925,8 @@
   
     transition: 0.2s;
   }
+
+
   
   .search-submit:hover {
     background-color: #fff!important;
@@ -938,6 +940,7 @@
     border-radius: 10px;
     transition: 0.2s;
     outline: none!important;
+    width: 75%!important;
   }
   .buscar-input-wp:focus {
     border-color: #65b492!important;
