@@ -937,8 +937,14 @@
     border-radius: 10px;
     transition: 0.2s;
     outline: none!important;
-    width: 75%!important;
+    width: 90%!important;
   }
+@media screen and (max-width: 700px) {
+    .buscar-input-wp {
+        width: 80%;
+    }
+}
+
   .buscar-input-wp:focus {
     border-color: #65b492!important;
   }
