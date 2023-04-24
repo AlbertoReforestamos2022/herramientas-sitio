@@ -359,20 +359,11 @@
     -webkit-background-position:center;
     -webkit-background-attachment: fixed;
   }
-  .title-background {
-    width: 100%;
-  }
+
   .title-background .title-general {
     margin: 24vh auto;
   }
-  @keyframes fondo-anim {
-    0% {
-      background-position: top;
-    }
-    100% {
-      background-position: center;
-    }
-  }
+
   .quienes-somos-info ul  {
     --bs-text-opacity: 1;
     color: rgba(0, 0, 0, 0.5) !important;
