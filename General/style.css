@@ -348,16 +348,18 @@
   }
   
   /* ------------------------------------------------------------------------------------------------------------------------------------ */
-  /* Sobre Nosotros */
+  /* Titulo general */
   .title-background, .title-post  {
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 
-    -webkit-background-size: cover;
-    -webkit-background-position:center;
-    -webkit-background-attachment: fixed;
+    background-position:center; 
+    background-attachment:scroll; 
+    
+      -o-background-size:cover; 
+      -moz-background-size:cover; 
+      -webkit-background-size:cover; 
+    
+    background-size:cover; 
+    background-repeat:no-repeat;
   }
 
   .title-background .title-general {
