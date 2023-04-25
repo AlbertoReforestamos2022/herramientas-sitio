@@ -168,8 +168,7 @@
   }
 
 .nav-link {
-    padding: 8px!important;
-    -webkit-padding: 4px!important;
+    padding: 5px!important;
 }
   
   /* Carousel */
@@ -349,6 +348,19 @@
   
   /* ------------------------------------------------------------------------------------------------------------------------------------ */
   /* Titulo general */
+  @media screen and (max-width: 700px) {
+    .title-background, .title-post {
+      background-position:center; 
+      background-attachment:scroll; 
+      
+        -o-background-size:cover; 
+        -moz-background-size:cover; 
+        -webkit-background-size:cover; 
+      
+      background-size:cover; 
+      background-repeat:no-repeat;
+    }
+  }
   .title-background, .title-post  {
 
     background-position:center; 
@@ -361,6 +373,7 @@
     background-size:cover; 
     background-repeat:no-repeat;
   }
+
 
   .title-background .title-general {
     margin: 24vh auto;
@@ -938,7 +951,7 @@
   }
 @media screen and (max-width: 700px) {
     .buscar-input-wp {
-        width: 80%;
+        max-width: 80%;
     }
 }
 
