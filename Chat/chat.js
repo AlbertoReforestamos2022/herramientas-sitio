@@ -251,7 +251,7 @@
                 <div>
                     <div class="collapse" id="reforestacion-coorporativa">
                         <div class="card border-0 text-primary">
-                            <p class="text-primary">En Reforestamos México realizamos reforestaciones, así como jornadas de mantenimiento, limpieza y restauración a través de alianzas con empresas. Para participar contáctanos enviando un correo a adriana@reforestamos.org o alejandraespinosa@reforestamos.org </p>
+                            <p class="text-primary">En Reforestamos México realizamos reforestaciones, así como jornadas de mantenimiento, limpieza y restauración a través de alianzas con empresas. Para participar contáctanos enviando un correo a <a class="fw-bold" href="mailto:adriana@reforestamos.org">adriana@reforestamos.org</a> o <a class="fw-bold" href="mailto:alejandraespinosa@reforestamos.org">alejandraespinosa@reforestamos.org</a> </p>
                         </div>
                     </div>
                 </div>
@@ -270,7 +270,7 @@
 
                         <div class="card border-0 text-primary">
                             <h5 class="p-2">Detectives Ambientales </h5>
-                            <p class="text-primary">¡Súmate a la comunidad de Detectives Ambientales en <a href="https://www.tiktok.com/@reforestamosmx?lang=es" target="_blank">TikTok</a>!   Registra tus especies de árboles, aves e insector en Naturalista y comparte tus hallazgos sumándote al hashtag #DetectivesAmbientales.</p>
+                            <p class="text-primary">¡Súmate a la comunidad de Detectives Ambientales en <a class="fw-bold" href="https://www.tiktok.com/@reforestamosmx?lang=es" target="_blank">TikTok</a>!   Registra tus especies de árboles, aves e insector en Naturalista y comparte tus hallazgos sumándote al hashtag #DetectivesAmbientales.</p>
                         </div>
                     </div>
                 </div>
@@ -326,7 +326,7 @@
                     <div class="collapse" id="realizar-campana">
 
                         <div class="card border-0 text-primary">
-                            <p class="text-primary">Gracias por tu interés en realizar una campaña para apoyar a nuestros bosques. Con la finalidad de dar seguimiento a tu solicitud, te sugerimos escribir a  vinculacion@reforestamos.org y mariel@reforestamos.org con más información de la propuesta. </p>
+                            <p class="text-primary">Gracias por tu interés en realizar una campaña para apoyar a nuestros bosques. Con la finalidad de dar seguimiento a tu solicitud, te sugerimos escribir a <a class="fw-bold" href="mailto:vinculacion@reforestamos.org">vinculacion@reforestamos.org</a> y <a class="fw-bold" href="mailto:mariel@reforestamos.org">mariel@reforestamos.org</a> con más información de la propuesta. </p>
                         </div>
                     </div>
                 </div>
@@ -366,7 +366,7 @@
                 <div>
                     <div class="collapse" id="como-adoptar">
                         <div class="card border-0 text-primary">
-                            <p class="text-primary">A través de un donativo tendrás la oportunidad de adoptar un árbol, el cual será plantado en un espacio adecuado para su supervivencia.<br/> Guíate de este 👉 <a href="https://youtu.be/gY8blH37xiE"> tutorial</a>  </p>
+                            <p class="text-primary">A través de un donativo tendrás la oportunidad de adoptar un árbol, el cual será plantado en un espacio adecuado para su supervivencia.<br/> Guíate de este 👉 <a class="fw-bold" href="https://youtu.be/gY8blH37xiE">tutorial</a>  </p>
                         </div>
                     </div>
                 </div>
@@ -408,7 +408,7 @@
                 <div>
                     <div class="collapse" id="vacantes">
                         <div class="card border-0 text-primary">
-                            <p class="text-primary">No contamos con una bolsa de trabajo permanente, sin embargo, cuando surge una vacante, la publicamos en nuestras redes sociales, te sugerimos seguirlas.<br/>  Envía tu CV a <a href="mailto:damaris@reforestamos.org">damaris@reforestamos.org</a> para tener en consideración tu perfil en futuras oportunidades de contratación. </p>
+                            <p class="text-primary">No contamos con una bolsa de trabajo permanente, sin embargo, cuando surge una vacante, la publicamos en nuestras redes sociales, te sugerimos seguirlas.<br/>  Envía tu CV a <a class="fw-bold" href="mailto:damaris@reforestamos.org">damaris@reforestamos.org</a> para tener en consideración tu perfil en futuras oportunidades de contratación. </p>
                         </div>
                     </div>
                 </div>
@@ -421,7 +421,7 @@
                 <div>
                     <div class="collapse" id="servicio-social">
                         <div class="card border-0 text-primary">
-                            <p class="text-primary">Gracias por el interés en realizar tu servicio social en Reforestamos México. Te sugerimos escribir a <a href="mailto:damaris@reforestamos.org">damaris@reforestamos.org</a> para obtener más información de este proceso.</p>
+                            <p class="text-primary">Gracias por el interés en realizar tu servicio social en Reforestamos México. Te sugerimos escribir a <a class="fw-bold" href="mailto:damaris@reforestamos.org">damaris@reforestamos.org</a> para obtener más información de este proceso.</p>
                         </div>
                     </div>
                 </div>
@@ -476,7 +476,7 @@
                 <div>
                     <div class="collapse" id="edicion-anterior">
                         <div class="card border-0 text-primary">
-                            <p class="text-primary">Revive la premiación de fotografías ganadoras 👉 <a href="https://youtu.be/MsAHwANEgrc?t=178">Aquí</a></p>
+                            <p class="text-primary">Revive la premiación de fotografías ganadoras 👉<a class="fw-bold" href="https://youtu.be/MsAHwANEgrc?t=178">Aquí</a></p>
                         </div>
                     </div>
                 </div>
@@ -489,7 +489,7 @@
                 <div>
                     <div class="collapse" id="libro-centinelas">
                         <div class="card border-0 text-primary">
-                            <p class="text-primary">Para obtener un ejemplar impreso del libro “Centinelas del Tiempo: Árboles Majestuosos de México” escribe a <a href="mailto:librocentinelas@reforestamos.org">librocentinelas@reforestamos.org</a></p>
+                            <p class="text-primary">Para obtener un ejemplar impreso del libro “Centinelas del Tiempo: Árboles Majestuosos de México” escribe a <a class="fw-bold" href="mailto:librocentinelas@reforestamos.org">librocentinelas@reforestamos.org</a></p>
                         </div>
                     </div>
                 </div>
@@ -559,7 +559,7 @@
                 <div>
                     <div class="collapse" id="como-donar">
                         <div class="card border-0 text-primary">
-                            <p class="text-primary">Puedes realizar tu donativo vía PayPal o con tu tarjeta de preferencia (VISA, MasterCard, American Express, OXXO).  </p>
+                            <p class="text-primary">Puedes realizar tu donativo vía <a class="fw-bold" href="https://www.paypal.com/mx/home">PayPal</a>  o con tu <a class="fw-bold" href="https://donativos-reforestamosmexico.org/" target=_blank > tarjeta de preferencia </a>(VISA, MasterCard, American Express, OXXO).  </p>
                         </div>
                     </div>
                 </div>
@@ -592,7 +592,7 @@
                 <div>
                     <div class="collapse" id="recibo">
                         <div class="card border-0 text-primary">
-                            <p class="text-primary">Si requieres recibo deducible de impuestos, con gusto te lo hacemos llegar con los datos fiscales que proporciones a <a href="mailto:aurora@reforestamos.org">aurora@reforestamos.org</a> </p>
+                            <p class="text-primary">Si requieres recibo deducible de impuestos, con gusto te lo hacemos llegar con los datos fiscales que proporciones a <a class="fw-bold" href="mailto:aurora@reforestamos.org">aurora@reforestamos.org</a> </p>
                         </div>
                     </div>
                 </div>
@@ -636,7 +636,7 @@
                 <div>
                     <div class="collapse" id="horario">
                         <div class="card border-0 text-primary">
-                            <p class="text-primary">Estamos disponibles de 9:00 a.m. a 6:00 p.m. (GMT-6).</p>
+                            <p class="text-primary">Estamos disponibles de Lunes a Viernes de 9:00 a.m. a 6:00 p.m. (GMT-6).</p>
                         </div>
                     </div>
                 </div>
@@ -649,7 +649,7 @@
                 <div>
                     <div class="collapse" id="telefono">
                         <div class="card border-0 text-primary">
-                            <p class="text-primary">Contáctanos vía telefónica al <a href="tel:+525555148670">+52 (55) 5514-8670</a>  </p>
+                            <p class="text-primary">Contáctanos vía telefónica al <a class="fw-bold" href="tel:+525555148670">+52 (55) 5514-8670</a>  </p>
                         </div>
                     </div>
                 </div>
@@ -662,11 +662,11 @@
                 <div>
                     <div class="collapse" id="oficinas">
                         <div class="card border-0 text-primary">
-                            <h5 class="text-primary">CDMX<h5>
-                            <p class="text-primary">Encuéntranos en Culiacán 115 Piso 2, Col. Hipódromo, C.P. 06100, Ciudad de México, México.</p>
+                            <h5 class="text-primary px-2">CDMX<h5>
+                            <p class="text-primary">Encuéntranos en <a class="fw-bold" target=_blank href="https://www.google.com.mx/maps/place/Reforestamos/@19.4034743,-99.1707926,18z/data=!4m6!3m5!1s0x85d1ff6b70ecda33:0x1e6826dbde723328!8m2!3d19.4028926!4d-99.1702442!16s%2Fg%2F11cn2z7ntj">Culiacán 115 Piso 2, Col. Hipódromo, C.P. 06100, Ciudad de México, México. </a></p>
 
-                            <h5 class="text-primary">Guadalajara <h5>
-                            <p class="text-primary">Encuéntranos en Colonias 188A, Americana, C.P.44160, Guadalajara, Jalisco, México.</p>
+                            <h5 class="text-primary px-2">Guadalajara <h5>
+                            <p class="text-primary">Encuéntranos en <a class="fw-bold" href="https://www.google.com.mx/maps/place/Reforestamos+M%C3%A9xico+Gdl/@20.6734485,-103.3666177,19z/data=!4m15!1m8!3m7!1s0x8428ae04f24c4a81:0x2623c098a1d5ad7a!2sReforestamos+M%C3%A9xico+Gdl!8m2!3d20.6733615!4d-103.3662852!10e5!16s%2Fg%2F11fx7wbw9s!3m5!1s0x8428ae04f24c4a81:0x2623c098a1d5ad7a!8m2!3d20.6733615!4d-103.3662852!16s%2Fg%2F11fx7wbw9s" target=_blank >Colonias 188A, Americana, C.P.44160, Guadalajara, Jalisco, México. </a></p>
                         </div>
                     </div>
                 </div>
@@ -692,15 +692,14 @@
         contentEventos.setAttribute('href', `#btn-opcion-eventos`);
         contentEventos.setAttribute('aria-expanded', 'false');
         contentEventos.setAttribute('aria-controls', 'collapseExample')
-        contentEventos.textContent = '9: Eventos y convocatorias 📝';
+        contentEventos.textContent = '9: Eventos 📝';
 
         const collapseContentEventos = document.createElement('div');
         collapseContentEventos.classList.add('collapse');
         collapseContentEventos.setAttribute('id', 'btn-opcion-eventos');
         collapseContentEventos.innerHTML = `
             <div class="card border-0 shadow-sm mt-3">
-                <p class="text-primary h6">Próximos eventos </p>
-                <p class="text-primary h6">Convocatorias activas </p>
+                <p class="text-primary h6 text-center"><a class="fw-bold" href="https://www.reforestamosmexico.org/eventos/" target=_blank > Próximos eventos </a></p>
             </div>
         `;
         /** opciones evenetos  */
