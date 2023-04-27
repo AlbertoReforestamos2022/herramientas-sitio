@@ -636,7 +636,7 @@
                 <div>
                     <div class="collapse" id="horario">
                         <div class="card border-0 text-primary">
-                            <p class="text-primary">Estamos disponibles de Lunes a Viernes de 9:00 a.m. a 6:00 p.m. (GMT-6).</p>
+                            <p class="text-primary">Estamos disponibles de Lunes a Viernes de 9:00 a.m. a 6:00 p.m. (Horario CDMX).</p>
                         </div>
                     </div>
                 </div>
