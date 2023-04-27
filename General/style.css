@@ -287,6 +287,7 @@
   }
   
   .owl-dots {
+    display: none!important;
     text-align: center;
     margin-left: 40px;
   }
@@ -308,7 +309,7 @@
     text-align: center;
   }
   .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-    color: #5a5a5a!important;
+    color: #94ce58!important;
     font-size: 3rem!important;
     display: inline-block;
     position: absolute;
