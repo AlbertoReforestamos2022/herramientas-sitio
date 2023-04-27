@@ -301,7 +301,8 @@
     outline: none;
   }
   .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
-    display: block!important;
+    display: flex!important;
+    justify-content: space-around!important;
   }
   .owl-theme .owl-dots, .owl-theme .owl-nav {
     text-align: center;
@@ -310,6 +311,8 @@
     color: #5a5a5a!important;
     font-size: 3rem!important;
     display: inline-block;
+    position: absolute;
+    margin-top: -120px;
   }
 
   @media (min-width: 768px) {
