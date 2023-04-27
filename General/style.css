@@ -1,12 +1,94 @@
+/* ---------------------- Estilos Generales ---------------------- */
+/* -------- background incendios forestales */
 .bg-nar {
     background-color: #ef7323;
   }
-  
   .text-nar {
     color: #ef7323;
   }
+  .bellota-rm {
+    width: 25px;
+    height: 25px;
+  } 
+  @media (max-width: 767.98px) {
+    .bellota-rm {
+      display: none;
+    }
+  }
+  .espacio {
+    margin-bottom: 100px;
+  }
+/* -------- Titulo general */
+  @media screen and (max-width: 700px) {
+    .title-background, .title-post {
+      background-position:center; 
+      background-attachment:scroll; 
+      
+        -o-background-size:cover; 
+        -moz-background-size:cover; 
+        -webkit-background-size:cover; 
+      
+      background-size:cover; 
+      background-repeat:no-repeat;
+    }
+  }
+  .title-background, .title-post  {
+
+    background-position:center; 
+    background-attachment:scroll; 
+    
+      -o-background-size:cover; 
+      -moz-background-size:cover; 
+      -webkit-background-size:cover; 
+    
+    background-size:cover; 
+    background-repeat:no-repeat;
+  }
+
+
+  .title-background .title-general {
+    margin: 24vh auto;
+  }
+/* -------- Footer */
+  .espacio-footer {
+    margin: 50px;
+  }
+  @media (min-width: 768px) {
+    .espacio-footer {
+      margin: 100px 100px;
+    }
+  }
+  .btn-outline-success:hover {
+    color: #ffffff;
+  }
+  .mapa-footer li {
+    padding: 5px!important;
+  }
+  .mapa-footer li a {
+    text-decoration: none!important;
+  }
+
+  #contacto-footer li a {
+    text-decoration: none;
+    color: #94ce58;
+  }
+
+  #contacto-footer li:hover {
+    background-color: #94ce58;
+    color: #fff!important;
+  }
+  #contacto-footer li:hover a {
+    color: #fff!important;
+  }
+
+  #contacto-footer li {
+    border: 2px solid #94ce58;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 20px auto;
+  }
   
-  /* Logo */
+/* -------- Logo */
   .logo img {
     width: 158px;
     padding: 5px;
@@ -16,21 +98,50 @@
       width: 100px;
     }
   }
-  
+
+/* -------- items menu principal (submenu -- nav-link) */
   .dropdown-menu li {
     position: relative;
   }
   .dropdown-menu .submenu {
     display: none;
     position: absolute;
-    left: 100%;
-    top: -20px;
+    left: 120%;
+    top: -10px;
   }
-  
   .dropdown-menu > li:hover > .submenu {
     display: block;
   }
-  
+/* Submenu  */
+  .menu-item-has-children ul  {
+    display: none;
+    list-style: none;
+    position: absolute;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 1.6px solid var(--bs-light);
+    border-radius: 10px;
+    padding: 0!important;
+  }
+
+  .menu-item-has-children:hover > ul  {
+    display: block!important;
+  }
+  .menu-item-has-children ul .menu-item-has-children li {
+    background: none!important;
+  }
+  .menu-item-has-children ul  .menu-item-object-custom  > ul  {
+    color: #0d6efd!important;
+    width: 100%;
+    left: 318px;
+    bottom: 10px;
+  }
+
+  .nav-link {
+    padding: 5px!important;
+  }
+
+/* -------- menu llamados a la acción (donar - adopta un arbol - boletín de prensa) */
   .nav-accion {
     position: fixed;
     top: 108px;
@@ -48,7 +159,6 @@
       top: 74px;
     }
   }
-  
   .donar .donar-link {
     color: #ffffff;
     text-decoration: none;
@@ -58,31 +168,32 @@
       display: none;
     }
   }
-  
   .adopta .adopta-link {
     color: #ffffff;
     text-decoration: none;
   }
-  
   @media (max-width: 1300px) {
     .adopta .adopta-text {
       display: none;
+      font-size:10px;
     }
   }
-  
   .boletin .boletin-link {
     color: #ffffff;
     text-decoration: none;
   }
   .boletin .boletin-text {
     text-align: center;
+    font-size: 10px;
   }
   @media (max-width: 1300px) {
     .boletin .boletin-text {
       display: none;
+      font-size: 10px;
     }
   }
-  
+
+/* -------- menu contacto redes sociales (contacto - redes sociales) */  
   .nav-rrss {
     color: #ffffff;
   }
@@ -106,7 +217,6 @@
       font-size: 16px;
     }
   }
-  
   .nav-red-social {
     margin-left: 15px;
   }
@@ -120,19 +230,15 @@
       padding: 6px;
     }
   }
-  
   .margen-principal {
     margin-top: 8.125rem;
       height: 20px;
   }
-  
   @media (min-width: 300px) and (max-width: 700px) {
     .margen-principal {
         margin-top: 120px!important;
       }
-
   }
-
   @media (min-width: 700px) and (max-width:1300) {
     .margen-principal {
         margin-top: 7.4rem;
@@ -140,62 +246,29 @@
   }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
-/* Página principal */
-
-/* Submenu  */
-.menu-item-has-children ul  {
-    display: none;
-    list-style: none;
-    position: absolute;
-    cursor: pointer;
-    background-color: #ffffff;
-    border: 1.6px solid var(--bs-light);
-    border-radius: 10px;
-    padding: 0!important;
-  }
-  
-  .menu-item-has-children:hover > ul  {
-    display: block!important;
-  }
-  .menu-item-has-children ul .menu-item-has-children li {
-    background: none!important;
-  }
-  .menu-item-has-children ul  .menu-item-object-custom  > ul  {
-    color: #0d6efd!important;
-    width: 100%;
-    left: 318px;
-    bottom: 10px;
-  }
-
-.nav-link {
-    padding: 5px!important;
-}
-  
-  /* Carousel */
+/* ---------------------- Página Inicio ---------------------- */
+/* -------- Carousel */
   .espacio-carousel {
     margin-top: 148px;
-  }
-  
-  /* Lineas de acción */
+  } 
+
+/* -------- Lineas de acción */
+/* Titulo lineas de accion */
   .espacio-lineas-accion {
     margin-top: 70px;
     margin-bottom: 20px;
   }
-  
-  .bellota-rm {
-    width: 25px;
-    height: 25px;
-  } 
-  @media (max-width: 767.98px) {
-    .bellota-rm {
-      display: none;
-    }
+/* row cards lineas de acción */
+.espacio-c-l-a {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 800px) {
+  .espacio-c-l-a {
+    margin-top: 30px;
   }
-  
-  .espacio {
-    margin-bottom: 100px;
-  }
-  
+}
+/* card lineas de acción */
   .espacio-card-lineas {
     margin-top: 70px;
   }
@@ -204,32 +277,25 @@
       margin-top: 100px;
     }
   }
-  
   @media screen and (max-width: 1000px) {
     .col-lineas-accion {
       margin-top: 20px;
     } 
-  }
-  
+  } 
   .linea-accion-img {
     width: 110px;
     height: 110px;
-
     border-radius: 50%;
   }
-
-
   @media (max-width: 1000px) {
     .linea-accion-img {
       width: 90px;
       height: 90px;
     }
   }
-  
   .card-lineas {
     position: relative;
   }
-  
   .img-lineas {
     position: absolute;
     margin-top: -105px;
@@ -240,7 +306,7 @@
     }
   }
   
-  /* Sitios de Interés */
+/* -------- Sitios de Interés */
   .wrapper {
     width: 100%;
   }
@@ -285,7 +351,7 @@
     width: 300px;
     margin-top: 16px;
   }
-  
+/*------------ carousel sitios interés - empresas */
   .owl-dots {
     display: none!important;
     text-align: center;
@@ -322,90 +388,41 @@
   .owl-carousel .owl-nav button.owl-prev {
     left: 10px!important;
   }
-
   @media (min-width: 768px) {
     .owl-dot {
       margin: 20px auto;
     }
   }
-  
   .owl-dots {
     margin: 0px auto;
   }
-  
   @media screen and (max-width:1000px) {
       .owl-dots {
           display: none;
       }
   }
-  
   .owl-dot:hover,
   .owl-dot.active {
     background: #65b492!important;
   }
-  
-  /* Nuestras Notas */
+
+/* --------  Nuestras Notas */
   .img-nota {
     height: 20rem;
     width: 100%;
     object-fit: contain;
   }
-  
   .btn-outline-light:hover {
     color: #ffffff;
   }
   
-  /* Footer */
-  .espacio-footer {
-    margin: 50px;
-  }
-  @media (min-width: 768px) {
-    .espacio-footer {
-      margin: 100px 100px;
-    }
-  }
-  
-  .btn-outline-success:hover {
-    color: #ffffff;
-  }
-  
   /* ------------------------------------------------------------------------------------------------------------------------------------ */
-  /* Titulo general */
-  @media screen and (max-width: 700px) {
-    .title-background, .title-post {
-      background-position:center; 
-      background-attachment:scroll; 
-      
-        -o-background-size:cover; 
-        -moz-background-size:cover; 
-        -webkit-background-size:cover; 
-      
-      background-size:cover; 
-      background-repeat:no-repeat;
-    }
-  }
-  .title-background, .title-post  {
-
-    background-position:center; 
-    background-attachment:scroll; 
-    
-      -o-background-size:cover; 
-      -moz-background-size:cover; 
-      -webkit-background-size:cover; 
-    
-    background-size:cover; 
-    background-repeat:no-repeat;
-  }
-
-
-  .title-background .title-general {
-    margin: 24vh auto;
-  }
-
+  /* ---------------------- Sobre nosotros ---------------------- */
   .quienes-somos-info ul  {
     --bs-text-opacity: 1;
     color: rgba(0, 0, 0, 0.5) !important;
   }
+/* -------- Logros y reconocimientos */
   .timeline {
     position: relative;
     max-width: 1200px;
@@ -421,7 +438,6 @@
     left: 50%;
     margin-left: -2px;
   }
-  
   .contenedor {
     padding: 10px 40px;
     position: relative;
@@ -440,7 +456,6 @@
     border-radius: 50%;
     z-index: 1;
   }
-  
   .left {
     left: 0;
   }
@@ -456,7 +471,6 @@
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent #5a5a5a;
   }
-  
   .right {
     left: 50%;
   }
@@ -502,73 +516,70 @@
     }
   }
   .content {
-    padding: 30px 10px;
+    padding: 30px 20px;
     position: relative;
     border-radius: 10px;
   }
-  
   .logros {
     padding: 30px 50px;
   }
-  
+  @media screen and (max-width:800px) {
+    .logros {
+      padding: 30px 20px;
+    }
+  }
   .linea p {
     margin: 0;
   }
   
-  /* ------------------------------------------------------------------------------------------------------------------------------------ */
-  /* Que Hacemos */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------- Que hacemos ---------------------- */
   .card-iniciativa {
       height: 300px!important;
   }
-  
   @media (min-width: 500px) and (max-width: 768px) {
-      .col-iniciativa {
-          display: flex;
-          justify-content:center;
-          align-items:center;
-      }	
+    .col-iniciativa {
+        display: flex;
+        justify-content:center;
+        align-items:center;
+    }	
   }
-  
   @media (min-width: 500px) and (max-width: 580px) {
     .card-iniciativa {
       width: 75%;
       }
   }
-  
   @media (min-width: 580px) and (max-width: 768px) {
     .card-iniciativa {
       width: 50%;
       }
   }
-  
   .logo-bosques-co {
     margin-top: 6rem;
   }
-  
   .logo-tree-cities {
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
-  
   .logo-d-a {
     margin-top: 4rem;
     margin-bottom: 3rem;
   }
-  /* Empresasa */
-  /* Sección B */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------- Que hacemos ---------------------- */
+/* -------- Sección B */
   @media screen and (max-width: 600px) {
       .content-logos-b {
           width: 300px;
       }
   }
-  
   .content-logos-b {
       width: 200px;
       height: 150px;
   }
-  
-  /* Informes Anuales */
-  /* Nuestras Notas */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------- Nuestras notas ---------------------- */
+/* --------  */
   .bg-img-nota {
     background-size: cover;
     background-position: center;
@@ -585,33 +596,27 @@
   .bg-img-nota:hover {
     opacity: unset;
   }
-  
-  /* Paginación*/
-  
+/* -------- painacion */
   .page-link {
-    border: 1px solid #036935;
+    border: 2px solid #65b492!important;
   }
-  
   .page-link, 
   .page-item a {
-    color: #036935;
-    background-color: var(--blanco);
+    color: #65b492!important;
+    background-color: #ffffff;
     text-decoration: none;
   }
-  
   .page-link:hover {
-    background-color: #036935;
-    color: var(--blanco)!important;
-    border-color: var(--blanco);
+    background-color: #65b492!important;
+    color: #ffffff!important;
+    border-color: #ffffff;
   }
-  
-  
-  /* Redes Sociales */
+
+/* -------- sidebar redes sociales */
   .contenedor-responsivo {
     position: relative !important;
     overflow: hidden !important;
   }
-  
   .iframe-responsivo {
     position: absolute !important;
     top: 0 !important;
@@ -620,24 +625,24 @@
     width: 100% !important;
     height: 100% !important;
   }
-  
   .frame {
     height: 700px !important;
     margin-top: 20px !important;
   }
   
-  /* Contacto */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------- Contacto ---------------------- */
   @media screen and (max-width: 500px) {
     .mapa {
       width: 300px;
     }
   }
   
-  /* Incendios forestales */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------- Incendios forestales ---------------------- */
   .background-incendios {
     background-color: #e9ecef;
   }
-  
   .video-incendios {
     width: 100%;
     height: 100%;
@@ -645,7 +650,6 @@
     object-position: center center;
     opacity: 1;
   }
-  
   .timeline-incendios {
     position: relative;
     margin: auto;
@@ -660,7 +664,6 @@
     left: 50%;
     margin-left: -2px;
   }
-  
   .contenido {
     position: relative;
     background-color: inherit;
@@ -678,7 +681,6 @@
     border-radius: 50%;
     z-index: 1;
   }
-  
   .izquierda {
     left: 0;
     padding: 10px 35px 10px 120px;
@@ -695,7 +697,6 @@
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent #ec432c;
   }
-  
   .derecha {
     left: 50%;
     padding: 10px 120px 10px 35px;
@@ -715,7 +716,6 @@
   .derecha::after {
     left: -10px;
   }
-  
   @media screen and (max-width: 820px) {
     .timeline-incendios::after {
       left: 37px;
@@ -741,6 +741,7 @@
       left: 0%;
     }
   }
+
   .background-acciones {
     height: 450px;
     padding-top: 100px;
@@ -748,7 +749,7 @@
     background-position: center;
     background-attachment: fixed;
   }
-  
+
   .mapa-incendios {
     background-color: #f2f2f2;
     padding: 50px 0 !important;
@@ -757,11 +758,9 @@
     background-position: center;
     background-attachment: fixed;
   }
-  
   .calendar {
     margin-top: 50px;
   }
-  
   .evento-activo {
     width: 40px;
     height: 40px;
@@ -771,7 +770,9 @@
     border-radius: 50%;
     cursor: pointer;
   }
-  
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------- Eventos ---------------------- */
   .activo {
     width: 40px;
     height: 40px;
@@ -779,36 +780,29 @@
     color: rgba(3, 105, 53, 0.9) !important;
     border: solid 1px rgba(3, 105, 53, 0.9);
   }
-  
   .cal-btn {
     height: 50px;
     width: 50px;
   }
-  
   .cal-btn:hover {
     background-color: #fff;
   }
-  
   .dias-mes:hover {
     cursor: pointer;
   }
-  
   .dias div:hover:not(.today) {
     border-radius: 50%;
     border-radius: 10px;
     border-radius: 50%;
   }
-  
   .prev-date,
   .next-date {
     color: #c8c8c8;
   }
-  
   .prev-date:hover,
   .next-date:hover {
     color: #c8c8c8;
   }
-  
   .today {
     color: #036935;
     border: 1px solid #036935;
@@ -827,7 +821,6 @@
     grid-template-columns: repeat(7, 1fr);
     align-items: center;
   }
-  
   .cal-month-name {
     grid-column-start: 2;
     grid-column-end: 7;
@@ -858,7 +851,8 @@
     opacity: 0.5;
   }
   
-  /* Documentos */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------- Documentos ---------------------- */
   .link-documento a {
     text-decoration: none;
     color: #94ce58!important;
@@ -884,71 +878,47 @@
   .espacio-general {
     margin-top: 20px;
   }
-  .mapa-footer li {
-    padding: 5px!important;
-  }
-  .mapa-footer li a {
-    text-decoration: none!important;
-  }
   
-  #contacto-footer li a {
-    text-decoration: none;
-    color: #94ce58;
-  }
-  
-  #contacto-footer li:hover {
-    background-color: #94ce58;
-    color: #fff!important;
-  }
-  #contacto-footer li:hover a {
-    color: #fff!important;
-  }
-  
-  #contacto-footer li {
-    border: 2px solid #94ce58;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 20px auto;
-  }
-  
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------- Eventos plugin ---------------------- */
   .tribe-common--breakpoint-medium.tribe-events .tribe-events-header--has-event-search .tribe-events-c-events-bar {
     display: none!important;
   }
-  
   .tribe-events-c-subscribe-dropdown__container {
     display: none!important;
   }
-  
   .tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-month__body  {
     border-color: #198754!important;
   }
-  
   .tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-month__day {
     border-color: #198754!important;
   }
-  
   .tribe-events-c-top-bar__datepicker-time {
       color: #036935!important;
   }
-  
   .tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-month__week {
     border-color: #198754!important;
   }
-  
   .tribe-events .tribe-events-calendar-month__day-date-daynum {
     color: #036935;
   }
-  
   .tribe-events .tribe-events-calendar-month__day-cell--selected, .tribe-events .tribe-events-calendar-month__day-cell--selected:focus, .tribe-events .tribe-events-calendar-month__day-cell--selected:hover  {
     background-color: #f8f9f3!important;
     color: #fff!important;
   }
-  
   .tribe-events .tribe-events-calendar-month__mobile-events-icon--event {
     background-color: #036935!important;
   }
+  .tribe-common-c-btn-border-small {
+    display: none!important;
+}
+
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-c-btn-border-small, .tribe-common--breakpoint-medium.tribe-common a.tribe-common-c-btn-border-small {
+    display: none!important;
+}
   
-  /* Buscar input */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------- buscador wordpress ---------------------- */
   .search-submit {
     border: 1px solid #65b492!important;
     background: #65b492!important;
@@ -962,7 +932,6 @@
     background-color: #fff!important;
     color: #65b492!important;
   }
-  
   .buscar-input-wp {
     padding: 5px;
     border: 2px solid #ccc!important;
@@ -972,20 +941,13 @@
     outline: none!important;
     width: 90%!important;
   }
-@media screen and (max-width: 700px) {
-    .buscar-input-wp {
-        max-width: 80%;
-    }
-}
-
+  @media screen and (max-width: 700px) {
+      .buscar-input-wp {
+          max-width: 80%;
+      }
+  }
   .buscar-input-wp:focus {
     border-color: #65b492!important;
   }
-  .tribe-common-c-btn-border-small {
-      display: none!important;
-  }
-  
-  .tribe-common--breakpoint-medium.tribe-common .tribe-common-c-btn-border-small, .tribe-common--breakpoint-medium.tribe-common a.tribe-common-c-btn-border-small {
-      display: none!important;
-  }
+
   
