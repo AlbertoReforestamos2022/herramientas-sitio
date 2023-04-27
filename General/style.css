@@ -133,7 +133,7 @@
   .menu-item-has-children ul  .menu-item-object-custom  > ul  {
     color: #0d6efd!important;
     width: 100%;
-    left: 364px;
+    left: 318px;
     bottom: -10px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   }
@@ -150,7 +150,7 @@
 /* -------- menu llamados a la acción (donar - adopta un arbol - boletín de prensa) */
   .nav-accion {
     position: fixed;
-    top: 108px;
+    top: 100px;
     right: 0;
     left: 0;
     z-index: 1000;
