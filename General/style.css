@@ -300,6 +300,11 @@
     cursor: pointer;
     outline: none;
   }
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    color: #5a5a5a;
+    font-size: 1.8rem;
+  }
+
   @media (min-width: 768px) {
     .owl-dot {
       margin: 20px auto;
