@@ -184,7 +184,6 @@
   }
   .boletin .boletin-text {
     text-align: center;
-    font-size: 10px;
   }
   @media (max-width: 1300px) {
     .boletin .boletin-text {
