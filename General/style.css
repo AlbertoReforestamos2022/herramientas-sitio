@@ -258,6 +258,13 @@
     margin-top: 70px;
     margin-bottom: 20px;
   }
+  @media screen and (max-width: 800px) {
+    .espacio-lineas-accion {
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+  }
+  
 /* row cards lineas de acción */
 .espacio-c-l-a {
   margin-top: 50px;
@@ -265,7 +272,12 @@
 }
 @media screen and (max-width: 800px) {
   .espacio-c-l-a {
-    margin-top: 30px;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1200px) {
+  .espacio-c-l-a {
+    margin-top: 20px;
   }
 }
 /* card lineas de acción */
