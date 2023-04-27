@@ -159,13 +159,16 @@
       top: 74px;
     }
   }
+  .donar, .adopta, .boletín {
+    text-align: center!important;
+  }
   .donar .donar-link {
     color: #ffffff;
     text-decoration: none;
   }
   @media (max-width: 1300px) {
     .donar .donar-text {
-      display: none;
+      font-size:10px;
     }
   }
   .adopta .adopta-link {
@@ -174,7 +177,6 @@
   }
   @media (max-width: 1300px) {
     .adopta .adopta-text {
-      display: none;
       font-size:10px;
     }
   }
@@ -187,7 +189,6 @@
   }
   @media (max-width: 1300px) {
     .boletin .boletin-text {
-      display: none;
       font-size: 10px;
     }
   }
