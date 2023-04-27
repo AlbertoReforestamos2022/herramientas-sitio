@@ -300,9 +300,16 @@
     cursor: pointer;
     outline: none;
   }
+  .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block!important;
+  }
+  .owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: center;
+  }
   .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-    color: #5a5a5a;
-    font-size: 1.8rem;
+    color: #5a5a5a!important;
+    font-size: 3rem!important;
+    display: inline-block;
   }
 
   @media (min-width: 768px) {
