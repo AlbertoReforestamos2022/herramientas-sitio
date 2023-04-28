@@ -164,6 +164,7 @@
       top: 78px;
     }
   }
+/* Donar */
   .donar, .adopta, .boletin {
     display: flex;
     justify-content: center;
@@ -177,7 +178,6 @@
     .donar .donar-text, .adopta .adopta-text, .boletin .boletin-text {
       margin-left: 5px;
     }
-
   }
   .donar, .adopta, .boletin {
     text-align: center!important;
@@ -187,7 +187,7 @@
     text-decoration: none;
   }
   .donar .donar-text {
-    font-size: 14px;
+    font-size: 16px;
   }
   .donar .donar-link #donar-icon{
     width: 30px;
@@ -209,12 +209,13 @@
       width: 22px;
     }
   }
+/* Adopta */
   .adopta .adopta-link {
     color: #ffffff;
     text-decoration: none;
   }
   .adopta .adopta-text {
-    font-size: 14px;
+    font-size: 16px;
   }
   .adopta .adopta-link #adopta-icon{
     width: 30px;
@@ -236,12 +237,13 @@
       width: 22px;
     }
   }
+/*Boletín*/
   .boletin .boletin-link {
     color: #ffffff;
     text-decoration: none;
   }
   .boletin .boletin-text {
-    font-size: 14px;
+    font-size: 16px;
   }
   .boletin .boletin-link #boletin-icon{
     width: 30px;
@@ -358,7 +360,7 @@
 }
 /* card lineas de acción */
   .espacio-card-lineas {
-    margin-top: 70px;
+    margin-top: 60px;
   }
   @media screen and (max-width: 800px) {
     .espacio-card-lineas {
