@@ -12,6 +12,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+
+  -webkit-font-family: "Poppins", sans-serif;
 }
 ::-webkit-scrollbar {
   width: 8px;     /* Tamaño del scroll en vertical */
