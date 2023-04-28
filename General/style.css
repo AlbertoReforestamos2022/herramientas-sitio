@@ -166,6 +166,22 @@
     }
   }
   .donar, .adopta, .boletin {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (min-width:700px) {
+    .donar, .adopta, .boletin {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .donar .donar-text, .adopta .adopta-text, .boletin .boletin-text {
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  }
+  .donar, .adopta, .boletin {
     text-align: center!important;
   }
   .donar .donar-link {
@@ -188,7 +204,7 @@
   }
   @media (min-width:700px) and (max-width: 1300px) {
     .donar .donar-text {
-      font-size: 10px;
+      font-size: 12px;
     }
     .donar .donar-link #donar-icon{
       width: 22px;
@@ -214,7 +230,7 @@
   }
   @media (min-width:700px) and (max-width: 1300px) {
     .adopta .adopta-text {
-      font-size: 10px;
+      font-size: 12px;
     }
     .adopta .adopta-link #adopta-icon{
       width: 22px;
@@ -243,7 +259,7 @@
   }
   @media (min-width:700px) and (max-width: 1300px) {
     .boletin .boletin-text {
-      font-size: 10px;
+      font-size: 12px;
     }
     .boletin .boletin-link #boletin-icon{
       width: 22px;
