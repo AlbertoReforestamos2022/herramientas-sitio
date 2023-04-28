@@ -196,7 +196,7 @@
   }
   @media screen and (max-width: 700px) {
     .donar .donar-text {
-      font-size: 7px;
+      font-size: 10px;
     }
     .donar .donar-link #donar-icon{
       width: 20px;
@@ -222,7 +222,7 @@
   }
   @media screen and (max-width: 700px) {
     .adopta .adopta-text {
-      font-size: 7px;
+      font-size: 10px;
     }
     .adopta .adopta-link #adopta-icon{
       width: 20px;
@@ -251,7 +251,7 @@
   }
   @media screen and (max-width: 700px) {
     .boletin .boletin-text {
-      font-size: 7px;
+      font-size: 10px;
     }
     .boletin .boletin-link #boletin-icon{
       width: 20px;
