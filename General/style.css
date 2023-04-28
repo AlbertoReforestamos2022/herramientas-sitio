@@ -1014,7 +1014,7 @@
     background: #65b492!important;
     color: #fff!important;
     border-radius: 7px;
-    padding: 5px;
+    padding: 2px;
   
     transition: 0.2s;
   }  
@@ -1023,19 +1023,25 @@
     color: #65b492!important;
   }
   .buscar-input-wp {
-    padding: 5px;
-    border: 2px solid #ccc!important;
+    padding: 2px;
+    border: 1px solid #ccc!important;
     color: #a0a0a0!important;
-    border-radius: 10px;
+    border-radius: 8px;
     transition: 0.2s;
     outline: none!important;
-    width: 90%!important;
+    width: 200px!important;
+    height: 40px;
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 500px) {
       .buscar-input-wp {
-          max-width: 80%;
+          max-width: 100px;
       }
   }
+  @media (min-width: 500px) and (max-width: 700px) {
+    .buscar-input-wp {
+        max-width: 150px;
+    }
+}
   .buscar-input-wp:focus {
     border-color: #65b492!important;
   }
