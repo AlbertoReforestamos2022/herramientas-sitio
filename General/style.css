@@ -195,10 +195,11 @@
   }
   @media screen and (max-width: 700px) {
     .donar .donar-text {
-      font-size: 10px;
+      font-size: 12px;
     }
     .donar .donar-link #donar-icon{
       width: 20px;
+      display: none!important;
     }
   }
   @media (min-width:700px) and (max-width: 1300px) {
@@ -221,10 +222,11 @@
   }
   @media screen and (max-width: 700px) {
     .adopta .adopta-text {
-      font-size: 10px;
+      font-size: 12px;
     }
     .adopta .adopta-link #adopta-icon{
       width: 20px;
+      display: none!important;
     }
   }
   @media (min-width:700px) and (max-width: 1300px) {
@@ -250,10 +252,11 @@
   }
   @media screen and (max-width: 700px) {
     .boletin .boletin-text {
-      font-size: 10px;
+      font-size: 12px;
     }
     .boletin .boletin-link #boletin-icon{
       width: 20px;
+      display: none!important;
     }
   }
   @media (min-width:700px) and (max-width: 1300px) {
