@@ -166,21 +166,15 @@
     }
   }
   .donar, .adopta, .boletin {
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
-  @media (min-width:700px) {
-    /* .donar, .adopta, .boletin {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    } */
-    .donar .donar-text, .adopta .adopta-text, .boletin .boletin-text {
-      margin-left: 10px;
-      margin-top: 10px;
-    }
+  .donar .donar-text, .adopta .adopta-text, .boletin .boletin-text {
+    margin-left: 15px;
+    margin-top: 10px;
   }
+
   .donar, .adopta, .boletin {
     text-align: center!important;
   }
