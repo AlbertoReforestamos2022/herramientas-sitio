@@ -174,7 +174,13 @@
     margin-left: 15px;
     margin-top: 10px;
   }
+  @media screen and (max-width:500px) {
+    .donar, .adopta, .boletin {
+      justify-content: space-evenly;
+      align-items: center;
+    }
 
+  }
   .donar, .adopta, .boletin {
     text-align: center!important;
   }
