@@ -175,9 +175,8 @@
     margin-top: 10px;
   }
   @media screen and (max-width:500px) {
-    .donar, .adopta, .boletin {
-      justify-content: space-evenly;
-      align-items: center;
+    .donar .donar-text, .adopta .adopta-text, .boletin .boletin-text {
+      margin-left: 5px;
     }
 
   }
