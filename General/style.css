@@ -157,12 +157,11 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 5px;
   }
   @media screen and (max-width: 800px) {
     .nav-accion {
       justify-content: center;
-      top: 74px;
+      top: 78px;
     }
   }
   .donar, .adopta, .boletin {
