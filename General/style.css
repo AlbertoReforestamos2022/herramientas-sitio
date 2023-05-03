@@ -428,14 +428,19 @@
       margin: 30px auto;
     }
   }
-  .wrapper .wrapper-list .amere, .wrapper .wrapper-list .trn, .wrapper .wrapper-list .uicn-mexicano {
+  .wrapper .wrapper-list .amere, .wrapper .wrapper-list .uicn-mexicano {
     width: 300px !important;
     margin-top: 37px;
     margin-right: 10px;
   }
+  .wrapper .wrapper-list .trn {
+    width: 300px !important;
+    margin-top: 42px;
+    margin-right: 10px;
+  }
   @media screen and (max-width: 600px) {
     .wrapper .wrapper-list .amere, .wrapper .wrapper-list .trn, .wrapper .wrapper-list .uicn-mexicano {
-      margin-top: 20px;
+      margin-top: 30px!important;
     }
   }
 
