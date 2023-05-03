@@ -428,20 +428,17 @@
       margin: 30px auto;
     }
   }
-  .wrapper .wrapper-list .amere {
+  .wrapper .wrapper-list .amere, .wrapper .wrapper-list .trn, .wrapper .wrapper-list .uicn-mexicano {
     width: 300px !important;
-    margin-top: 52px;
+    margin-top: 37px;
     margin-right: 10px;
   }
   @media screen and (max-width: 600px) {
-    .wrapper .wrapper-list .amere {
-      margin-top: 10px;
+    .wrapper .wrapper-list .amere, .wrapper .wrapper-list .trn, .wrapper .wrapper-list .uicn-mexicano {
+      margin-top: 20px;
     }
   }
-  .wrapper .wrapper-list .trn {
-    width: 300px;
-    margin-top: 16px;
-  }
+
 /*------------ carousel sitios interés - empresas */
   .owl-dots {
     display: none!important;
