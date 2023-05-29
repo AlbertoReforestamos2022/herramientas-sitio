@@ -571,16 +571,16 @@
     }
   }
   .wrapper .wrapper-list .amere, .wrapper .wrapper-list .uicn-mexicano {
-    width: 300px !important;
+    width: 300px!important;
     margin-top: 37px;
     margin-right: 10px;
   }
   .uicn {
-    width: 130px;
+    width: 130px!important;
     margin-top: 10px;
   }
   .wrapper .wrapper-list .trn {
-    width: 300px !important;
+    width: 300px!important;
     margin-top: 42px;
     margin-right: 10px;
   }
