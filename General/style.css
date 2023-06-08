@@ -804,6 +804,12 @@
     margin-top: 4rem;
     margin-bottom: 3rem;
   }
+
+  #manejo-paisajes, #incidencia-politica, #comunidades-emprendimiento, #sector-privado, #empoderamiento-ciudadano {
+    scroll-margin-top: 166px;
+  }
+
+  
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 /* ---------------------- Que hacemos ---------------------- */
 /* -------- Sección B */
@@ -896,12 +902,12 @@
   .timeline-incendios::after {
     content: "";
     position: absolute;
-    width: 8px;
+    width: 4px;
     background-color: #ec432c;
     top: 0;
     bottom: 0;
     left: 50%;
-    margin-left: -2px;
+    margin-left: 0px;
   }
   .contenido {
     position: relative;
@@ -915,7 +921,7 @@
     height: 25px;
     right: -15px;
     background-color: #ffffff;
-    border: 4px solid #ec432c;
+    border: 2px solid #ec432c;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
