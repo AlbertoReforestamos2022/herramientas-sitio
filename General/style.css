@@ -225,7 +225,7 @@
   }
   
   .menu-item-has-children ul li a {
-    margin-left: 10px!important;
+    margin-left: 13px!important;
   }
 
   .menu-item-has-children:hover > ul  {
@@ -266,7 +266,7 @@
   }
   
   .menu-item-has-children ul li a {
-    margin-left: 10px!important;
+    margin-left: 13px!important;
   }
 
   .menu-item-has-children ul li:hover > a {
@@ -300,7 +300,7 @@
     }
 
     .menu-item-has-children ul li a {
-      margin-left: 10px!important;
+      margin-left: 13px!important;
     }
 
     .menu-item-has-children ul li:hover > a {
@@ -311,9 +311,10 @@
 
     .menu-item-has-children ul  .menu-item-object-custom  > ul  {
       width: 100%;
-      left: 390px;
+      left: 375px;
       bottom: 0;
     }
+
     .menu-item-has-children ul  .menu-item-object-custom ul .menu-item-has-children > ul {
       top: 0;
       left: 365px;
