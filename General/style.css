@@ -321,14 +321,13 @@
     }
   }
 
-.menu-item-362 a::before{
-  content: "\1F331";
-  color: green;
+.menu-item-362 a::after{
+  content: '\27A1'!important;
+  position: absolute!important;
+  right: 0;
+  margin-top: -6.5px;
   display: inline-block;
-  width: 8px;
-  margin-right: 17px;
-  font-weight: bold;
-  font-size: .8rem;
+  font-size: 1.6rem;
 }
 
 /* -------- menu llamados a la acción (donar - adopta un arbol - boletín de prensa) */
