@@ -137,7 +137,7 @@
   background-color: #036935!important;
 }
 /* menu-principal */
-@media (max-width:700px) {
+@media (max-width:930px) {
   .buscar-submit{
     font-size: 11px!important;
   }
@@ -321,6 +321,15 @@
     }
   }
 
+.menu-item-362 a::before{
+  content: "\1F331";
+  color: green;
+  display: inline-block;
+  width: 8px;
+  margin-right: 17px;
+  font-weight: bold;
+  font-size: .8rem;
+}
 
 /* -------- menu llamados a la acción (donar - adopta un arbol - boletín de prensa) */
   .nav-accion {
