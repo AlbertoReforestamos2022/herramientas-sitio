@@ -325,8 +325,8 @@
   content: '\27A1'!important;
   position: absolute!important;
   right: 0;
-  margin-top: -6.5px;
-  display: inline-block;
+  top: 0;
+  color: #198754;
   font-size: 1.6rem;
 }
 
