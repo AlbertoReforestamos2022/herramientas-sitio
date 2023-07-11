@@ -58,6 +58,7 @@
 
         linkMAMB.mostrarInformacion();
         linkCorredor.mostrarInformacion();
+        LinkSIG.mostrarInformacion();
         linkCadenas.mostrarInformacion();
         linkIncendios.mostrarInformacion();
         // politicas públicas
