@@ -29,32 +29,32 @@
         // Manejo de Paisajes
         const linkMAMB = new Iniciativa('.menu-item-468 a', '#manejo-paisajes', '#Mejores-Altarget' );
         const linkCorredor = new Iniciativa('.menu-item-469 a', '#manejo-paisajes', '#Corredor-Btarget');
-        // const LinkSIG = new Iniciativa('.menu-item-470 a', '#manejo-paisajes', '#SIG')
+        const LinkSIG = new Iniciativa('.menu-item-470 a', '#manejo-paisajes', '#SIG')
         const linkCadenas = new Iniciativa('.menu-item-471 a', '#manejo-paisajes', '#Cadenas-detarget');
-        const linkIncendios = new Iniciativa('.menu-item-547 a', '#manejo-paisajes', '#Prevenciótarget');
+        const linkIncendios = new Iniciativa('.menu-item-472 a', '#manejo-paisajes', '#Prevenciótarget');
 
         // Incidencia en politicas públicas
-        const linkAMERE = new Iniciativa('.menu-item-550 a', '#incidencia-politica', '#Alianza-Metarget');
-        const linkITRN = new Iniciativa('.menu-item-551 a', '#incidencia-politica', '#Índice-detarget');
-        const linkTreeCities = new Iniciativa('.menu-item-552 a', '#incidencia-politica', '#Tree-Citietarget');
+        const linkAMERE = new Iniciativa('.menu-item-757 a', '#incidencia-politica', '#Alianza-Metarget');
+        const linkITRN = new Iniciativa('.menu-item-758 a', '#incidencia-politica', '#Índice-detarget');
+        const linkTreeCities = new Iniciativa('.menu-item-759 a', '#incidencia-politica', '#Tree-Citietarget');
 
         // Comunidades de emprendimiento
-        const linkJEF = new Iniciativa('.menu-item-553 a', '#comunidades-emprendimiento', '#Joven-emprendedor-forestarget' );
-        const linkBosCo = new Iniciativa('.menu-item-554 a', '#comunidades-emprendimiento', '#Bosques-&-Cotarget' );
-        const linkEjeNeo = new Iniciativa('.menu-item-555 a', '#comunidades-emprendimiento', '#Talento-emprendedor-rurtarget' );
-        const linkBosTec = new Iniciativa('.menu-item-556 a', '#comunidades-emprendimiento', '#Bosques-y-Tecnologíatarget' );
-        const linkArbolesNav = new Iniciativa('.menu-item-560 a', '#comunidades-emprendimiento', '#Árboles-de-navidadtarget' );
+        const linkJEF = new Iniciativa('.menu-item-760 a', '#comunidades-emprendimiento', '#Joven-emprendedor-forestarget' );
+        const linkBosCo = new Iniciativa('.menu-item-761 a', '#comunidades-emprendimiento', '#Bosques-&-Cotarget' );
+        const linkEjeNeo = new Iniciativa('.menu-item-763 a', '#comunidades-emprendimiento', '#Talento-emprendedor-rurtarget' );
+        const linkBosTec = new Iniciativa('.menu-item-762 a', '#comunidades-emprendimiento', '#Bosques-y-Tecnologíatarget' );
+        const linkArbolesNav = new Iniciativa('.menu-item-764 a', '#comunidades-emprendimiento', '#Árboles-de-navidadtarget' );
 
         // Compromisos del sector privado
-        const linkBoscares = new Iniciativa('.menu-item-558 a', '#sector-privado', '#Los-Bóscarestarget' );
-        const linkAMEBIN = new Iniciativa('.menu-item-559 a', '#sector-privado', '#AMEBINtarget' );
-        const link1Torg = new Iniciativa('.menu-item-560 a', '#sector-privado', '#1T.ORGtarget' );
+        const linkBoscares = new Iniciativa('.menu-item-765 a', '#sector-privado', '#Los-Bóscarestarget' );
+        const linkAMEBIN = new Iniciativa('.menu-item-766 a', '#sector-privado', '#AMEBINtarget' );
+        const link1Torg = new Iniciativa('.menu-item-767 a', '#sector-privado', '#1T.ORGtarget' );
 
         // Campañas de empoderamiento Ciudadano
-        const linkVFCT = new Iniciativa('.menu-item-561 a', '#sector-privado', '#Visión-Fotarget' );
-        const linkDA = new Iniciativa('.menu-item-562 a', '#sector-privado', '#Detectivestarget' );
-        const linkDocArbol = new Iniciativa('.menu-item-563 a', '#sector-privado', '#DocÁrboltarget' );
-        const linkRedOJA = new Iniciativa('.menu-item-564 a', '#sector-privado', '#Red-OJAtarget' );
+        const linkVFCT = new Iniciativa('.menu-item-768 a', '#empoderamiento-ciudadano', '#Visión-Fotarget' );
+        const linkDA = new Iniciativa('.menu-item-769 a', '#empoderamiento-ciudadano', '#Detectivestarget' );
+        const linkDocArbol = new Iniciativa('.menu-item-770 a', '#empoderamiento-ciudadano', '#DocÁrboltarget' );
+        const linkRedOJA = new Iniciativa('.menu-item-771 a', '#empoderamiento-ciudadano', '#Red-OJAtarget' );
 
         linkMAMB.mostrarInformacion();
         linkCorredor.mostrarInformacion();
