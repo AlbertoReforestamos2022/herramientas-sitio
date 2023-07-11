@@ -931,7 +931,7 @@
     }
 
     
-    if (URLactual === 'http://localhost:8080/wordpress/que-hacemos/' ||  URLactual === 'http://localhost:8080/wordpress/que-hacemos/#manejo-paisajes' || URLactual === 'http://localhost:8080/wordpress/que-hacemos/#incidencia-politica/#incidencia-politica' ||  URLactual === 'http://localhost:8080/wordpress/que-hacemos/#comunidades-emprendimiento' || URLactual === 'http://localhost:8080/wordpress/que-hacemos/#incidencia-politica/#sector-privado' || URLactual === 'http://localhost:8080/wordpress/que-hacemos/#incidencia-politica/#empoderamiento-ciudadano' ){
+    if (URLactual === 'https://www.reforestamosmexico.org/que-hacemos/' ||  URLactual === 'https://www.reforestamosmexico.org/que-hacemos/#empoderamiento-ciudadano' ){
         mostrarInformacionMenu();
 
     }else {
