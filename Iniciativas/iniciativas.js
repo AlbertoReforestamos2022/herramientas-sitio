@@ -931,7 +931,7 @@
     }
 
     
-    if (URLactual === 'https://www.reforestamosmexico.org/que-hacemos/' ||  URLactual === 'https://www.reforestamosmexico.org/que-hacemos/#empoderamiento-ciudadano' ){
+    if (URLactual === 'https://www.reforestamosmexico.org/que-hacemos/' ||  URLactual === 'https://www.reforestamosmexico.org/que-hacemos/#incidencia-politica' ||  URLactual === 'https://www.reforestamosmexico.org/que-hacemos/#comunidades-emprendimiento' || URLactual === 'https://www.reforestamosmexico.org/que-hacemos/#sector-privado' || URLactual === 'https://www.reforestamosmexico.org/que-hacemos/#empoderamiento-ciudadano' ){
         mostrarInformacionMenu();
 
     }else {
