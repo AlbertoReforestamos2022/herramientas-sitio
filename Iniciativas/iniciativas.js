@@ -29,7 +29,7 @@
         // Manejo de Paisajes
         const linkMAMB = new Iniciativa('.menu-item-468 a', '#manejo-paisajes', '#Mejores-Altarget' );
         const linkCorredor = new Iniciativa('.menu-item-469 a', '#manejo-paisajes', '#Corredor-Btarget');
-        const LinkSIG = new Iniciativa('.menu-item-470 a', '#manejo-paisajes', '#SIG')
+        const LinkSIG = new Iniciativa('.menu-item-470 a', '#manejo-paisajes', '#Sistemas-dtarget')
         const linkCadenas = new Iniciativa('.menu-item-471 a', '#manejo-paisajes', '#Cadenas-detarget');
         const linkIncendios = new Iniciativa('.menu-item-472 a', '#manejo-paisajes', '#Prevenciótarget');
 
@@ -40,15 +40,15 @@
 
         // Comunidades de emprendimiento
         const linkJEF = new Iniciativa('.menu-item-760 a', '#comunidades-emprendimiento', '#Joven-emprendedor-forestarget' );
-        const linkBosCo = new Iniciativa('.menu-item-761 a', '#comunidades-emprendimiento', '#Bosques-&-Cotarget' );
+        const linkBosCo = new Iniciativa('.menu-item-761 a', '#comunidades-emprendimiento', '#Bosques-&-Cotarget' );// Error Selector (?)
         const linkEjeNeo = new Iniciativa('.menu-item-763 a', '#comunidades-emprendimiento', '#Talento-emprendedor-rurtarget' );
         const linkBosTec = new Iniciativa('.menu-item-762 a', '#comunidades-emprendimiento', '#Bosques-y-Tecnologíatarget' );
         const linkArbolesNav = new Iniciativa('.menu-item-764 a', '#comunidades-emprendimiento', '#Árboles-de-navidadtarget' );
 
         // Compromisos del sector privado
         const linkBoscares = new Iniciativa('.menu-item-765 a', '#sector-privado', '#Los-Bóscarestarget' );
-        const linkAMEBIN = new Iniciativa('.menu-item-766 a', '#sector-privado', '#AMEBINtarget' );
-        const link1Torg = new Iniciativa('.menu-item-767 a', '#sector-privado', '#1T.ORGtarget' );
+        const linkAMEBIN = new Iniciativa('.menu-item-766 a', '#sector-privado', '#Alianza-Mexicana-de-Biotarget' );
+        const link1Torg = new Iniciativa('.menu-item-767 a', '#sector-privado', '#1T.ORGtarget' ); // Error Selector (?)
 
         // Campañas de empoderamiento Ciudadano
         const linkVFCT = new Iniciativa('.menu-item-768 a', '#empoderamiento-ciudadano', '#Visión-Fotarget' );
