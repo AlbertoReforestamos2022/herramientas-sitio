@@ -727,9 +727,9 @@
 
 /* --------  Nuestras Notas */
   .img-nota {
-    height: 100%;
+    height: 20rem;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
   }
   .btn-outline-light:hover {
     color: #ffffff;
