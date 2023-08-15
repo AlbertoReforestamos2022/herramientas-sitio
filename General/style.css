@@ -676,21 +676,36 @@
   }
 
   .wrapper .wrapper-list .amere {
-    width: 160px!important;
-    margin-top: 10px;
+    width: 170px!important;
+    margin-top: 20px;
     margin-right: 10px;
+  }
+
+  .wrapper .wrapper-list .trn {
+    width: 170px!important;
+    margin-top: 20px;
+  }
+  .wrapper .wrapper-list .uicn-mexicano {
+    width: 180px!important;
+    margin-top: 10px;
+  }
+  .wrapper .wrapper-list .uicn  {
+    width: 90px!important;
   }
 
   @media screen and (max-width: 600px) {
     .wrapper .wrapper-list .amere {
       margin-top: 10px;
     }
+    .wrapper .wrapper-list .trn {
+      margin-top: 10px;
+    }
+    .wrapper .wrapper-list .uicn-mexicano {
+      margin-top: 5px;
+    }
   }
 
-  .wrapper .wrapper-list .trn {
-    width: 160px!important;
-    margin-top: 15px;
-  }
+
 
 /* --------  Nuestras Notas */
   .img-nota {
