@@ -557,6 +557,39 @@
   .espacio-carousel {
     margin-top: 148px;
   } 
+  @media screen and (max-width:500px) {
+    .imagen-carousel {
+      width: 100%!important;
+    } 
+  }
+  
+  @media (min-width:501px) and (max-width:900px) {
+    .imagen-carousel {
+      height: 250px!important;
+      width: 100%!important;
+    } 
+  }
+  
+  @media (min-width: 900px) and (max-width:1300px) {
+    .imagen-carousel {
+      height: 360px!important;
+      width: 100%!important;
+    }  
+  }
+  
+  @media (min-width: 1300px) and (max-width:1600px) {
+    .imagen-carousel {
+      height: 480px!important;
+      width: 100%!important;
+    }  
+  }
+  
+  @media (min-width: 1600px) {
+    .imagen-carousel {
+      height: 580px!important;
+      width: 100%!important;
+    }  
+  }
 
 /* -------- Lineas de acción */
 /* Titulo lineas de accion */
