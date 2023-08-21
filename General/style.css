@@ -560,6 +560,7 @@
   @media screen and (max-width:500px) {
     .imagen-carousel {
       width: 100%!important;
+      height: 100%!important;
     } 
   }
   
