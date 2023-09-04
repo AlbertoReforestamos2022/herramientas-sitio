@@ -660,6 +660,12 @@
     align-items: center!important;
   }
 
+  /* Tamaño imagenes página empresas */
+  .owl-carousel-empresas .owl-item img {
+    width: 150px!important;
+  }
+
+  /* Tamaño imagenes página inicio*/
   .owl-carousel .owl-item img {
     width: 100px!important;
   }
