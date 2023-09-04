@@ -289,18 +289,13 @@
     .menu-item-object-custom ul li::before {
       content: "\1F331";
       position: absolute;
-      /* bottom: auto; */
       margin-top: 10px;
-      /* color: green; */
-      /* display: inline-block; */
-      /* width: 8px; */
-      /* margin-right: 17px; */
-      /* font-weight: bold; */
+      margin-left: 4px;
       font-size: .8rem;
     }
 
     .menu-item-has-children ul li a {
-      margin-left: 13px!important;
+      margin-left: 16px!important;
     }
 
     .menu-item-has-children ul li:hover > a {
