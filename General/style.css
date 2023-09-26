@@ -581,9 +581,16 @@
     }  
   }
   
-  @media (min-width: 1600px) {
+  @media (min-width: 1600px) and (max-width: 1700px) {
     .imagen-carousel {
       height: 580px!important;
+      width: 100%!important;
+    }  
+  }
+  
+  @media (min-width: 1700px) {
+    .imagen-carousel {
+      height: 100%!important;
       width: 100%!important;
     }  
   }
