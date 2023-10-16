@@ -528,7 +528,7 @@
     }
   }
   .margen-principal {
-    margin-top: 7rem;
+    /* margin-top: 8.5rem; */
     height: 20px;
   }
   @media screen and (max-width: 400px) {
@@ -543,10 +543,14 @@
   }
   @media (min-width: 785px) and (max-width:1300px) {
     .margen-principal {
-        margin-top: 7rem;
+        margin-top: 8.5rem;
       }
   }
-
+  @media (min-width: 1300px) {
+    .margen-principal {
+        margin-top: 9rem;
+      }
+  }
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 /* ---------------------- Página Inicio ---------------------- */
 /* -------- Carousel */
