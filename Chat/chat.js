@@ -61,10 +61,9 @@
                 iconSVG.setAttribute("xmlns", "http://www.w3.org/2000/svg");
                 iconSVG.setAttribute('width', '20');
                 iconSVG.setAttribute('height', '20');
-                iconSVG.setAttribute('fill', 'currentColor');
+                iconSVG.setAttribute('fill', '#036935');
                 iconSVG.setAttribute('class', 'bi bi-x-octagon');
                 iconSVG.setAttribute('viewBox', '0 0 16 16');
-                iconSVG.setAttribute('style', 'color:#036935;');
     
                 iconPath.setAttribute('d',
                 'M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1z'
@@ -93,7 +92,7 @@
                 iconSVG.setAttribute('xmlns','http://www.w3.org/2000/svg')
                 iconSVG.setAttribute('width', '20');
                 iconSVG.setAttribute('height', '20');
-                iconSVG.setAttribute('fill', 'currentColor');
+                iconSVG.setAttribute('fill', '036935');
                 iconSVG.setAttribute('class', 'bi bi-chat-square-dots');
                 iconSVG.setAttribute('viewBox', '0 0 16 16');
                 iconSVG.setAttribute('style', 'color:#036935;');
@@ -1096,7 +1095,7 @@
                 iconSVG.setAttribute("xmlns", "http://www.w3.org/2000/svg");
                 iconSVG.setAttribute('width', '20');
                 iconSVG.setAttribute('height', '20');
-                iconSVG.setAttribute('fill', 'currentColor');
+                iconSVG.setAttribute('fill', '#036935');
                 iconSVG.setAttribute('class', 'bi bi-x-octagon');
                 iconSVG.setAttribute('viewBox', '0 0 16 16');
     
@@ -1127,9 +1126,10 @@
                 iconSVG.setAttribute('xmlns','http://www.w3.org/2000/svg')
                 iconSVG.setAttribute('width', '20');
                 iconSVG.setAttribute('height', '20');
-                iconSVG.setAttribute('fill', 'currentColor');
+                iconSVG.setAttribute('fill', '036935');
                 iconSVG.setAttribute('class', 'bi bi-chat-square-dots');
                 iconSVG.setAttribute('viewBox', '0 0 16 16');
+                iconSVG.setAttribute('style', 'color:#036935;');
     
                 iconPath.setAttribute('d',
                 'M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z'
