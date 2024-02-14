@@ -1289,7 +1289,7 @@
                         <div>
                             <div class="collapse" id="reforestacion-coorporativa">
                                 <div class="card border-0 text-primary">
-                                    <p class="text-primary">En Reforestamos México realizamos reforestaciones, así como jornadas de mantenimiento, limpieza y restauración a través de alianzas con empresas. Para participar contáctanos enviando un correo a <a class="fw-bold" href="mailto:adriana@reforestamos.org">adriana@reforestamos.org</a> or <a class="fw-bold" href="mailto:alejandraespinosa@reforestamos.org">alejandraespinosa@reforestamos.org</a>.</a> </p>
+                                    <p class="text-primary">At Reforestamos Mexico we carry out reforestations, as well as maintenance, cleaning and restoration campaigns through alliances with companies. To participate contact us by sending an email to <a class="fw-bold" href="mailto:adriana@reforestamos.org">adriana@reforestamos.org</a> or <a class="fw-bold" href="mailto:alejandraespinosa@reforestamos.org">alejandraespinosa@reforestamos.org</a>.</a> </p>
                                 </div>
                             </div>
                         </div>
