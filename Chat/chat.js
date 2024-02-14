@@ -58,19 +58,19 @@
                     'http://www.w3.org/2000/svg',
                     'path'
                 );
-    
+                iconSVG.setAttribute("xmlns", "http://www.w3.org/2000/svg");
                 iconSVG.setAttribute('width', '20');
                 iconSVG.setAttribute('height', '20');
                 iconSVG.setAttribute('fill', 'currentColor');
-                iconSVG.setAttribute('class', 'bi bi-x-circle');
+                iconSVG.setAttribute('class', 'bi bi-x-octagon');
                 iconSVG.setAttribute('viewBox', '0 0 16 16');
     
                 iconPath.setAttribute('d',
-                'M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'
+                'M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1z'
                 );
     
                 iconPath2.setAttribute('d',
-                'M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z'
+                'M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708'
                 );
     
                 iconSVG.appendChild(iconPath);
@@ -89,6 +89,7 @@
                     'path'
                 );
     
+                iconSVG.setAttribute('xmlns','http://www.w3.org/2000/svg')
                 iconSVG.setAttribute('width', '20');
                 iconSVG.setAttribute('height', '20');
                 iconSVG.setAttribute('fill', 'currentColor');
@@ -1090,19 +1091,19 @@
                     'http://www.w3.org/2000/svg',
                     'path'
                 );
-    
+                iconSVG.setAttribute("xmlns", "http://www.w3.org/2000/svg");
                 iconSVG.setAttribute('width', '20');
                 iconSVG.setAttribute('height', '20');
                 iconSVG.setAttribute('fill', 'currentColor');
-                iconSVG.setAttribute('class', 'bi bi-x-circle');
+                iconSVG.setAttribute('class', 'bi bi-x-octagon');
                 iconSVG.setAttribute('viewBox', '0 0 16 16');
     
                 iconPath.setAttribute('d',
-                'M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'
+                'M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1z'
                 );
     
                 iconPath2.setAttribute('d',
-                'M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z'
+                'M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708'
                 );
     
                 iconSVG.appendChild(iconPath);
@@ -1121,6 +1122,7 @@
                     'path'
                 );
     
+                iconSVG.setAttribute('xmlns','http://www.w3.org/2000/svg')
                 iconSVG.setAttribute('width', '20');
                 iconSVG.setAttribute('height', '20');
                 iconSVG.setAttribute('fill', 'currentColor');
