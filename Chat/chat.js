@@ -61,7 +61,7 @@
                 iconSVG.setAttribute("xmlns", "http://www.w3.org/2000/svg");
                 iconSVG.setAttribute('width', '20');
                 iconSVG.setAttribute('height', '20');
-                iconSVG.setAttribute('fill', 'rdarkgreen');
+                iconSVG.setAttribute('fill', 'darkgreen');
                 iconSVG.setAttribute('class', 'bi bi-x-octagon');
                 iconSVG.setAttribute('viewBox', '0 0 16 16');
     
@@ -1094,7 +1094,7 @@
                 iconSVG.setAttribute("xmlns", "http://www.w3.org/2000/svg");
                 iconSVG.setAttribute('width', '20');
                 iconSVG.setAttribute('height', '20');
-                iconSVG.setAttribute('fill', 'rdarkgreen');
+                iconSVG.setAttribute('fill', 'darkgreen');
                 iconSVG.setAttribute('class', 'bi bi-x-octagon');
                 iconSVG.setAttribute('viewBox', '0 0 16 16');
     
