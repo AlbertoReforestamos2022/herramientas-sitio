@@ -27,6 +27,13 @@ const responseObj = {
     {numero: 3, parrafo: '¡Hola! ¿Con qué opción te puedo ayudar?'},
     {numero: 4, parrafo: 'Instrucciones: Escribe el número de acuerdo al tema de tu interés'}
   ]
+
+  const parrafosTitulosEn = [
+    {numero: 1, parrafo: '🙅‍♂️ I will never ask you for personal information, nor will you write it down or send images. E.g. Credit or debit card numbers, passwords, PINs, etc.. 🚫'},
+    {numero: 2, parrafo: 'Our privacy notice has been updated, you can consult it at: www.reforestamos.org/aviso-privacidad'},
+    {numero: 3, parrafo: 'Hello! What option can I help you with?'},
+    {numero: 4, parrafo: 'Instructions: Write the number according to the topic of your interest.'}
+  ]
   
   const listaOpciones = [
     {numero: 1, opcion: 'Voluntariado 🦺'},
