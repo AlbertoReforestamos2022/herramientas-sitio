@@ -1364,7 +1364,7 @@
                             <div class="collapse" id="realizar-campana">
     
                                 <div class="card border-0 text-primary">
-                                    <p class="text-primary">Gracias por tu interés en realizar una campaña para apoyar a nuestros bosques. Con la finalidad de dar seguimiento a tu solicitud, te sugerimos escribir a <a class="fw-bold" href="mailto:vinculacion@reforestamos.org">vinculacion@reforestamos.org</a> y <a class="fw-bold" href="mailto:mariel@reforestamos.org">mariel@reforestamos.org</a> con más información de la propuesta.</p>
+                                    <p class="text-primary">Gracias por tu interés en realizar una campaña para apoyar a nuestros bosques. Con la finalidad de dar seguimiento a tu solicitud, te sugerimos escribir a <a class="fw-bold" href="mailto:vinculacion@reforestamos.org">vinculacion@reforestamos.org</a> and <a class="fw-bold" href="mailto:mariel@reforestamos.org">mariel@reforestamos.org</a> with more information on the proposal.</p>
                                 </div>
                             </div>
                         </div>
@@ -1686,7 +1686,7 @@
                         <div>
                             <div class="collapse" id="telefono">
                                 <div class="card border-0 text-primary">
-                                    <p class="text-primary">Contáctanos vía telefónica al <a class="fw-bold" href="tel:+525555148670">+52 (55) 5514-8670</a>  </p>
+                                    <p class="text-primary">Contact us by phone at <a class="fw-bold" href="tel:+525555148670">+52 (55) 5514-8670</a>  </p>
                                 </div>
                             </div>
                         </div>
