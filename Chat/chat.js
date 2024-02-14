@@ -1364,7 +1364,7 @@
                             <div class="collapse" id="realizar-campana">
     
                                 <div class="card border-0 text-primary">
-                                    <p class="text-primary">Gracias por tu interés en realizar una campaña para apoyar a nuestros bosques. Con la finalidad de dar seguimiento a tu solicitud, te sugerimos escribir a <a class="fw-bold" href="mailto:vinculacion@reforestamos.org">vinculacion@reforestamos.org</a> and <a class="fw-bold" href="mailto:mariel@reforestamos.org">mariel@reforestamos.org</a> with more information on the proposal.</p>
+                                    <p class="text-primary">Thank you for your interest in conducting a campaign to support our forests. In order to follow up on your request, we suggest you to write to <a class="fw-bold" href="mailto:vinculacion@reforestamos.org">vinculacion@reforestamos.org</a> and <a class="fw-bold" href="mailto:mariel@reforestamos.org">mariel@reforestamos.org</a> with more information on the proposal.</p>
                                 </div>
                             </div>
                         </div>
@@ -1398,7 +1398,7 @@
                     <div class="card border-0 shadow-sm mt-3 text-center">
                         <p>
                             <a class="btn btn-primary text-white w-100"  data-bs-toggle="collapse" data-bs-target="#como-adoptar" aria-expanded="false" aria-controls="collapseWidthExample">
-                            ¿Cómo adoptar?  
+                            How to adopt ?   
                             </a>
                         </p>
                         <div>
