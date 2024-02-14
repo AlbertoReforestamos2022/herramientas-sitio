@@ -1773,7 +1773,7 @@
                 inputResponse.setAttribute('type', 'number');      
                 inputResponse.setAttribute('id', 'txtInput');
                 inputResponse.setAttribute('maxlength', '3');
-                inputResponse.setAttribute('placeholder', 'Escribe un número');
+                inputResponse.setAttribute('placeholder', 'type a number');
                 inputDiv.appendChild(inputResponse);
                 
                 // .send 
@@ -1910,65 +1910,65 @@
     
                     if(res == 1 ) {
                         renderMessageEle('Voluntariado 🦺');
-                        listaVoluntariado.map(voluntariado => {
+                        listaVoluntariadoEn.map(voluntariado => {
                             const {numero, opcion} = voluntariado;
                             
                             renderMessageEle(`${numero} - ${opcion}`);
                         })
                         
                     }else if(res == 1.1 ) {
-                        renderMessageEle('En Reforestamos México realizamos reforestaciones, así como jornadas de mantenimiento, limpieza y restauración a través de alianzas con empresas. Para participar contáctanos enviando un correo a adriana@reforestamos.org o alejandraespinosa@reforestamos.org ');
+                        renderMessageEle('At Reforestamos Mexico we carry out reforestations, as well as maintenance, cleanup and restoration activities through partnerships with companies. To participate contact us by sending an email to adriana@reforestamos.org or alejandraespinosa@reforestamos.org');
     
                     }else if(res == 1.2 ) {
-                        renderMessageEle('¡Quiero reforestar!');
-                        renderMessageEle('Próximamente daremos a conocer fechas y montos de recuperación para sumarte a las jornadas de voluntariado.');
+                        renderMessageEle('I want to reforest!');
+                        renderMessageEle('We will soon announce dates and recovery amounts to join the volunteer days.');
                         renderMessageEle('Detectives Ambientales ');
-                        renderMessageEle('¡Súmate a la comunidad de Detectives Ambientales en TikTok! Registra tus especies de árboles, aves e insector en Naturalista y comparte tus hallazgos sumándote al hashtag #DetectivesAmbientales.')
+                        renderMessageEle('Join the Environmental Detectives community on TikTok! Record your tree, bird and insect species in Naturalista and share your findings by joining the hashtag #DetectivesAmbientales')
                     }else if(res == 2 ) {
-                        renderMessageEle('Marketing con causa 📱');
+                        renderMessageEle('Cause marketing 📱');
     
-                        listaMarketing.map(marketing => {
+                        listaMarketingEn.map(marketing => {
                             const {numero, opcion} = marketing;
                             renderMessageEle(`${numero} - ${opcion}`);
                             console.log(`${numero} - ${opcion}`)
                         })
                     }else if(res == 2.1 ) {
-                        renderMessageEle('Actualmente no contamos con campañas activas. ');
+                        renderMessageEle('We currently have no active campaigns.');
     
                     }else if(res == 2.2 ) {
-                        renderMessageEle('¿Cómo realizar una campaña? ')
-                        renderMessageEle('Gracias por tu interés en realizar una campaña para apoyar a nuestros bosques. Con la finalidad de dar seguimiento a tu solicitud, te sugerimos escribir a  vinculacion@reforestamos.org y mariel@reforestamos.org con más información de la propuesta.');
+                        renderMessageEle('How to run a campaign?')
+                        renderMessageEle('Thank you for your interest in conducting a campaign to support our forests. In order to follow up on your request, we suggest you write to vinculacion@reforestamos.org and mariel@reforestamos.org with more information about the proposal.');
     
                     }else if(res == 3) {
-                        renderMessageEle('Adopta un árbol 🌱');
-                        listaAdopta.map(adopta => {
+                        renderMessageEle('Adopt a tree 🌱');
+                        listaAdoptaEn.map(adopta => {
                             const {numero, opcion} = adopta;
     
                             renderMessageEle(`${numero} - ${opcion}`);
                             console.log(`${numero} - ${opcion}`)
                         })
                     }else if(res == 3.1 ) {
-                        renderMessageEle('¿Cómo adoptar?')
-                        renderMessageEle('A través de un donativo tendrás la oportunidad de adoptar un árbol, el cual será plantado en un espacio adecuado para su supervivencia. Guíate de este tutorial 👉 https://youtu.be/gY8blH37xiE ');
+                        renderMessageEle('How to adopt?')
+                        renderMessageEle('Through a donation you will have the opportunity to adopt a tree, which will be planted in a suitable space for its survival. Follow this tutorial 👉 https://youtu.be/gY8blH37xiE');
     
                     } else if (res == 4) {
-                        renderMessageEle('Bolsa de trabajo 👨‍👧');
-                        listaBolsa.map(bolsa => {
+                        renderMessageEle('Job opportunities 👨‍👧');
+                        listaBolsaEn.map(bolsa => {
                             const {numero, opcion} = bolsa;
                             renderMessageEle(`${numero} - ${opcion}`);
                             console.log(`${numero} - ${opcion}`)
                         })
                     }else if(res == 4.1 ) {
-                        renderMessageEle('Vacantes')
-                        renderMessageEle('No contamos con una bolsa de trabajo permanente, sin embargo, cuando surge una vacante, la publicamos en nuestras redes sociales, te sugerimos seguirlas.  Envía tu CV a damaris@reforestamos.org para tener en consideración tu perfil en futuras oportunidades de contratación. ');
+                        renderMessageEle('Vacancies')
+                        renderMessageEle('We do not have a permanent job board, however, when a vacancy arises, we publish it on our social networks, we suggest you follow them.  Send your CV to damaris@reforestamos.org to be considered for future hiring opportunities.');
     
                     }else if(res == 4.2 ) {
-                        renderMessageEle('Servicio social ')
-                        renderMessageEle('Gracias por el interés en realizar tu servicio social en Reforestamos México. Te sugerimos escribir a damaris@reforestamos.org para obtener más información de este proceso.');
+                        renderMessageEle('Social Service')
+                        renderMessageEle('Thank you for your interest in doing your social service at Reforestamos Mexico. We suggest you write to damaris@reforestamos.org to obtain more information about this process.');
     
                     } else if (res == 5) {
                         renderMessageEle('Centinelas del Tiempo 📷');
-                        listaCentinelas.map(centinelas => {
+                        listaCentinelasEn.map(centinelas => {
                             const {numero, opcion} = centinelas;
     
                             renderMessageEle(`${numero} - ${opcion}`);
@@ -1976,82 +1976,82 @@
                         })
     
                     }else if(res == 5.1 ) {
-                        renderMessageEle('Convocatoria 2023 ')
-                        renderMessageEle('¡Espérala próximamente! ');
+                        renderMessageEle('Call for proposals 2024 ')
+                        renderMessageEle('Expect it soon!');
     
                     }else if(res == 5.2 ) {
-                        renderMessageEle('Fotografías ganadoras edición 2022')
-                        renderMessageEle('Revive la premiación de fotografías ganadoras 👉 https://youtu.be/MsAHwANEgrc?t=178');
+                        renderMessageEle('Winning photographs 2022 edition')
+                        renderMessageEle('Relive the awarding of the winning photographs 👉 https://youtu.be/MsAHwANEgrc?t=178');
     
                     }else if(res == 5.3 ) {
-                        renderMessageEle('Libro Centinelas del Tiempo')
-                        renderMessageEle('Para obtener un ejemplar impreso del libro “Centinelas del Tiempo: Árboles Majestuosos de México” escribe a librocentinelas@reforestamos.org');
+                        renderMessageEle('Book Centinelas del Tiempo')
+                        renderMessageEle('To obtain a printed copy of the book "Sentinels of Time: Majestic Trees of Mexico" write to librocentinelas@reforestamos.org.');
     
                     } else if (res == 6 ) { // ------
-                        renderMessageEle('Compra y/o venta de árboles 🌳');
+                        renderMessageEle('Purchase and/or sale of trees 🌳');
     
                     }else if(res == 6.1 ) {
-                        renderMessageEle('Dado que somos una organización sin fines de lucro, no contamos con vivero, las actividades que realizamos se llevan a cabo gracias a las donaciones que recibimos. Sin embargo, si requieres una donación de árboles o buscas adquirirlos, puedes acercarte a la Comisión Nacional Forestal (CONAFOR), o a viveros cercanos a tu localidad.');
+                        renderMessageEle('Since we are a non-profit organization, we do not have a nursery and our activities are carried out thanks to the donations we receive. However, if you require a donation of trees or are looking to purchase them, you can approach the National Forestry Commission (CONAFOR), or nurseries near you.');
     
                     } else if (res == 7 ) { // ------
-                        renderMessageEle('Donar💰');
+                        renderMessageEle('Donate 💰');
     
-                        listaDonar.map(donar => {
+                        listaDonarEn.map(donar => {
                             const {numero, opcion} = donar;
     
                             renderMessageEle(`${numero} - ${opcion}`);
                             console.log(`${numero} - ${opcion}`)
                         })
                     }else if(res == 7.1 ) {
-                        renderMessageEle('¿Cómo donar?');
-                        renderMessageEle('Puedes realizar tu donativo vía PayPal o con tu tarjeta de preferencia (VISA, MasterCard, American Express, OXXO).');
+                        renderMessageEle('How to donate?');
+                        renderMessageEle('You can make your donation via PayPal or with your preferred credit card (VISA, MasterCard, American Express, OXXO).');
     
                     }else if(res == 7.2 ) {
-                        renderMessageEle('¿Para qué se utilizará mi donativo?');
-                        renderMessageEle(' 	Mejores Alianzas, Mejores Bosques   	Joven Emprendedor Forestal  	Emprendimientos Productivos En Áreas Naturales Protegidas  	Restauración Productiva del Paisaje  	Comunidades Forestales con Bosques Certificados FSC®');
-    
+                        renderMessageEle('What will my donation be used for?');
+                        renderMessageEle(' Mejores Alianzas, Mejores Bosques - Young Forestry Entrepreneur - Productive ventures in Natural Protected Areas - Productive landscape restoration - Forest Communities with Certified Forests FSC®');
+     
                     }else if(res == 7.3 ) {
-                        renderMessageEle('¿Cómo obtener mi recibo deducible de impuestos?');
-                        renderMessageEle('Si requieres recibo deducible de impuestos, con gusto te lo hacemos llegar con los datos fiscales que proporciones a aurora@reforestamos.org ');
+                        renderMessageEle('How do I get my tax-deductible receipt?');
+                        renderMessageEle('If you require a tax-deductible receipt, we will gladly send it to you with the tax information you provide to aurora@reforestamos.org.');
     
                     }else if (res == 8 ) { // ------
-                        renderMessageEle('Contacto ☎️');
+                        renderMessageEle('Contact ☎️');
     
-                        listaContacto.map(contacto => {
+                        listaContactoEn.map(contacto => {
                             const {numero, opcion} = contacto;
     
                             renderMessageEle(`${numero} - ${opcion}`);
                             console.log(`${numero} - ${opcion}`)
                         })
                     } else if(res == 8.1 ) {
-                        renderMessageEle('Horario de atención ');
-                        renderMessageEle('Estamos disponibles de 9:00 a.m. a 6:00 p.m. (GMT-6)');
+                        renderMessageEle('Hours of operation');
+                        renderMessageEle('We are available from 9:00 a.m. to 6:00 p.m. (GMT-6)');
     
                     }else if(res == 8.2 ) {
-                        renderMessageEle('Número telefónico');
-                        renderMessageEle('Contáctanos vía telefónica al +52 (55) 5514-8670 ');
+                        renderMessageEle('Telephone number');
+                        renderMessageEle('Contact us by telephone at +52 (55) 5514-8670');
     
                     }else if(res == 8.3 ) {
-                        renderMessageEle('Oficinas');
+                        renderMessageEle('Offices');
     
-                        renderMessageEle('CDMX')
-                        renderMessageEle('Encuéntranos en Culiacán 115 Piso 2, Col. Hipódromo, C.P. 06100, Ciudad de México, México.');
+                        renderMessageEle('CDMX office')
+                        renderMessageEle('Find us at Culiacán 115 Piso 2, Col. Hipódromo, C.P. 06100, Ciudad de México, México.');
     
-                        renderMessageEle('Guadalajara');
-                        renderMessageEle('Encuéntranos en Colonias 188A, Americana, C.P.44160, Guadalajara, Jalisco, México. ');
+                        renderMessageEle('Guadalajara office');
+                        renderMessageEle('Find us at en Colonias 188A, Americana, C.P.44160, Guadalajara, Jalisco, México. ');
     
                     } else if (res == 9 ) { // ------
-                        renderMessageEle('Eventos y convocatorias 📝');
+                        renderMessageEle('Events and announcements 📝');
     
-                        listaEventos.map(eventos => {
+                        listaEventosEn.map(eventos => {
                             const {numero, opcion} = eventos;
     
                             renderMessageEle(`${numero} - ${opcion}`);
                             console.log(`${numero} - ${opcion}`)
                         })
                     } else {
-                        renderMessageEle('Ingresa una opcion valida');
-                        renderMessageEle('o también nos puedes contactar al correo de contacto contacto@reforestamos.org');
+                        renderMessageEle('Enter a valid option');
+                        renderMessageEle('or you can also contact us by e-mail at contacto@reforestamos.org');
                     }
                 };
     

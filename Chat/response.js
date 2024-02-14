@@ -51,25 +51,50 @@ const responseObj = {
     {numero: 1.1, opcion: 'Reforestación corporativa'},
     {numero: 1.2, opcion: 'Voluntariado'}
   ];
+
+  const listaVoluntariadoEn = [
+    {numero: 1.1, opcion: 'Corporate reforestation'},
+    {numero: 1.2, opcion: 'Volunteering'}
+  ];
   
   const listaMarketing = [
     {numero: 2.1, opcion: 'Campañas activas'},
     {numero: 2.2, opcion: '¿Cómo realizar una campaña?'}
   ];
+
+  const listaMarketingEn = [
+    {numero: 2.1, opcion: 'Active campaigns'},
+    {numero: 2.2, opcion: 'How to run a campaign?'}
+  ];
   
   const listaAdopta  = [
     {numero: 3.1, opcion: '¿Cómo adoptar?'}
+  ];
+
+  const listaAdoptaEn  = [
+    {numero: 3.1, opcion: 'How to adopt?'}
   ];
   
   const listaBolsa = [
     {numero: 4.1, opcion: 'Vacantes'},
     {numero: 4.2, opcion: 'Servicio social'}
   ]
+
+  const listaBolsaEn = [
+    {numero: 4.1, opcion: 'Vacancies'},
+    {numero: 4.2, opcion: 'Social Service'}
+  ]
   
   const listaCentinelas = [
     {numero: 5.1, opcion: 'Convocatoria 2023'},
     {numero: 5.2, opcion: 'Fotografías ganadoras edición 2022'},
     {numero: 5.3, opcion: 'Libro Centinelas del Tiempo'}
+  ]
+
+  const listaCentinelasEn = [
+    {numero: 5.1, opcion: 'Call for proposals 2024'},
+    {numero: 5.2, opcion: 'Winning photographs 2022 edition'},
+    {numero: 5.3, opcion: 'Book Centinelas del Tiempo'}
   ]
   
   const listaCompra = [
@@ -81,6 +106,12 @@ const responseObj = {
     {numero: 7.2, opcion: '¿Para qué se utilizará mi donativo?'},
     {numero: 7.3, opcion: '¿Cómo obtener mi recibo deducible de impuestos?'}
   ]
+
+  const listaDonarEn = [
+    {numero: 7.1, opcion: 'How to donate?'},
+    {numero: 7.2, opcion: 'What will my donation be used for?'},
+    {numero: 7.3, opcion: 'How do I get my tax-deductible receipt?'}
+  ]
   
   const listaContacto = [
     {numero: 8.1, opcion: 'Horario de atención'},
@@ -88,8 +119,20 @@ const responseObj = {
     {numero: 8.3, opcion: 'Oficinas'},
     {numero: 8.4, opcion: 'Directorio'}
   ]
+
+  const listaContactoEn = [
+    {numero: 8.1, opcion: 'Hours of operation'},
+    {numero: 8.2, opcion: 'Telephone number'},
+    {numero: 8.3, opcion: 'Offices'},
+    {numero: 8.4, opcion: 'Directory'}
+  ]
   
   const listaEventos = [
     {numero: 9.1, opcion: 'Próximos eventos'},
     {numero: 9.2, opcion: 'Convocatorias activas'}
+  ]
+
+  const listaEventosEn = [
+    {numero: 9.1, opcion: 'Upcoming events'},
+    {numero: 9.2, opcion: 'Active calls for proposals'}
   ]
