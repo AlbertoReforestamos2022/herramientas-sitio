@@ -152,11 +152,9 @@
     color: #65b492!important;
   }
 }
-@media (min-width:767px) {
-  .nav-link{
-    font-size: 14px!important;
-    padding: 5px 5px 5px 3px!important;
-  }
+.nav-link{
+  font-size: 15px!important;
+  padding: 5px 5px 5px 3px!important;
 }
 
 @media (min-width:800px) and (max-width:967px) {
