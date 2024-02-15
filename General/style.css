@@ -144,39 +144,26 @@
 }
 
 @media (min-width:700px) and (max-width:870px) {
-  .nav-link{
-    font-size: 12.5px!important;
-    padding: 5px 5px 5px 3px!important;
-  }
   .buscar {
     font-size: 12px!important;
   }
-  .buscar-input-wp {
-    height: 20px!important;
-  }
+
   .search-submit {
-    height: 20px!important;
     color: #65b492!important;
+  }
+}
+@media (min-width:767px) {
+  .nav-link{
+    font-size: 14px!important;
+    padding: 5px 5px 5px 3px!important;
   }
 }
 
 @media (min-width:800px) and (max-width:967px) {
-  .nav-link{
-    font-size: 13px!important;
-  }
   .buscar {
     font-size: 12px!important;
   }
-  .buscar-input-wp {
-    height: 20px!important;
-  }
-  .buscar-boton-wp {
-    height: 20px!important;
-    color: #65b492!important;
-  }
-  .search-submit {
-    color: #65b492!important;
-  }
+
 }
 
 @media screen and (max-width:800px) {
