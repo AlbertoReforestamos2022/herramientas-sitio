@@ -189,9 +189,9 @@
                 </ul>                          
             </div>
 
-            <div class="modal-footer border-0 d-flex justify-content-center">
-            <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal" aria-label="Close">Salir </button>
-            
+            <div class="modal-footer border-0 d-flex justify-content-between">
+                <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal" aria-label="Close">Salir </button>
+                <a class="btn btn-outline-primary" href="http://www.reforestamosmexico.org/wp-content/uploads/2024/06/COBIOCOM.pdf" target="_blank">Saber más</a>
             </div>
 
         </div>
