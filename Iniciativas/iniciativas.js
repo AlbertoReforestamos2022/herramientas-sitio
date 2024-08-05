@@ -90,31 +90,26 @@
     // MANEJO DE PAISAJES
     // MAMB
     const itemMAMB = document.querySelector('.menu-item-468');
-    console.log(itemMAMB);
     itemMAMB.setAttribute('data-bs-toggle', 'modal');
     itemMAMB.setAttribute('data-bs-target', '#MAMB');
 
     // CORREDOR
     const itemCorredor = document.querySelector('.menu-item-469');
-    console.log(itemCorredor);
     itemCorredor.setAttribute('data-bs-toggle', 'modal');
     itemCorredor.setAttribute('data-bs-target', '#Corredor');
 
     // // SIG
     const itemSIG = document.querySelector('.menu-item-470');
-    console.log(itemSIG);
     itemSIG.setAttribute('data-bs-toggle', 'modal');
     itemSIG.setAttribute('data-bs-target', '#SIG');
     
     // // CADENAS
     const itemCadenas = document.querySelector('.menu-item-471');
-    console.log(itemCadenas);
     itemCadenas.setAttribute('data-bs-toggle', 'modal');
     itemCadenas.setAttribute('data-bs-target', '#Cadenas');
 
     // // INCENDIOS
     const itemIncendios = document.querySelector('.menu-item-472');
-    console.log(itemIncendios);
     itemIncendios.setAttribute('data-bs-toggle', 'modal');
     itemIncendios.setAttribute('data-bs-target', '#Incendios');
 
@@ -122,7 +117,6 @@
 
     // Imprimir modales
     const modalBody = document.querySelector('.modal-iniciativas');
-    console.log(modalBody);
     // MAMB
     const modalMAMB = document.createElement('div');
     modalMAMB.classList.add('modal','fade');
