@@ -800,15 +800,15 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header border-0">
-            <h3 class="modal-title text-light text-center" id="CentinelasLabel">Visión Forestal y Centinelas del Tiempo (VFCT) </h3>
+            <h3 class="modal-title text-light text-center" id="CentinelasLabel">Centinelas del Tiempo </h3>
             
             </div>
 
             <div class="modal-body py-5">
-                Concurso nacional de fotografía para incentivar <span data-contrast="auto">, promover y difundir el aprecio a los ecosistemas forestales y a los árboles a través de la fotografía, así como dar a conocer de manera visual, las acciones y prácticas que impulsen el desarrollo forestal sustentable, la conservación de los ecosistemas y su biodiversidad. Desde 2016 se realiza en conjunto con la Comisión Nacional Forestal.</span>
-                <ul class="my-4">
-                    <li>Siete ediciones del concurso, más de 39 mil fotografías recibidas y más de 13 mil participantes.</li>
-                </ul>                          
+                <p>“Centinelas del Tiempo: Árboles Majestuosos de México” es un concurso nacional de fotografía  creado por Reforestamos México que incentiva, promueve y difunde el aprecio a los ecosistemas forestales y a los árboles para dar a conocer de manera visual, las acciones y prácticas que impulsen el desarrollo forestal sustentable, la conservación de los ecosistemas y su biodiversidad.</p>
+                <p>En 2007 nace "Centinelas del Tiempo" y se lleva de forma bianual hasta el 2015.</p>    
+                <p>A partir del 2016 y hasta el 2022 se realizó en conjunto con la Comisión Nacional Forestal y su propio concurso de fotografía, fusionándose como “Visión Forestal y Centinelas del Tiempo”, realizándose de forma anual.</p>
+                <p>En el 2024 “Centinelas el Tiempo: Árboles Majestuosos de México” se renueva y es lanzado nuevamente por Reforestamos México.</p>             
             </div>
 
             <div class="modal-footer border-0 d-flex justify-content-between">
